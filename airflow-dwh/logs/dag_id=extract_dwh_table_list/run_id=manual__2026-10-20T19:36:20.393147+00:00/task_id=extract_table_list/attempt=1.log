@@ -1,0 +1,14 @@
+[2026-10-20T19:40:19.040+0000] {local_task_job_runner.py:123} INFO - ::group::Pre task execution logs
+[2026-10-20T19:40:19.048+0000] {taskinstance.py:2614} INFO - Dependencies all met for dep_context=non-requeueable deps ti=<TaskInstance: extract_dwh_table_list.extract_table_list manual__2026-10-20T19:36:20.393147+00:00 [queued]>
+[2026-10-20T19:40:19.054+0000] {taskinstance.py:2614} INFO - Dependencies all met for dep_context=requeueable deps ti=<TaskInstance: extract_dwh_table_list.extract_table_list manual__2026-10-20T19:36:20.393147+00:00 [queued]>
+[2026-10-20T19:40:19.054+0000] {taskinstance.py:2867} INFO - Starting attempt 1 of 1
+[2026-10-20T19:40:19.078+0000] {taskinstance.py:2890} INFO - Executing <Task(PythonOperator): extract_table_list> on 2026-10-20 19:36:20.393147+00:00
+[2026-10-20T19:40:19.087+0000] {standard_task_runner.py:72} INFO - Started process 116 to run task
+[2026-10-20T19:40:19.093+0000] {standard_task_runner.py:104} INFO - Running: ['airflow', 'tasks', 'run', 'extract_dwh_table_list', 'extract_table_list', 'manual__2026-10-20T19:36:20.393147+00:00', '--job-id', '10', '--raw', '--subdir', 'DAGS_FOLDER/dags/extract_table_list.py', '--cfg-path', '/tmp/tmpplucr8eh']
+[2026-10-20T19:40:19.094+0000] {standard_task_runner.py:105} INFO - Job 10: Subtask extract_table_list
+[2026-10-20T19:40:19.132+0000] {task_command.py:467} INFO - Running <TaskInstance: extract_dwh_table_list.extract_table_list manual__2026-10-20T19:36:20.393147+00:00 [running]> on host bea20a763b45
+[2026-10-20T19:40:19.181+0000] {taskinstance.py:3134} INFO - Exporting env vars: AIRFLOW_CTX_DAG_OWNER='airflow' AIRFLOW_CTX_DAG_ID='extract_dwh_table_list' AIRFLOW_CTX_TASK_ID='extract_table_list' AIRFLOW_CTX_EXECUTION_DATE='2026-10-20T19:36:20.393147+00:00' AIRFLOW_CTX_TRY_NUMBER='1' AIRFLOW_CTX_DAG_RUN_ID='manual__2026-10-20T19:36:20.393147+00:00'
+[2026-10-20T19:40:19.182+0000] {taskinstance.py:732} INFO - ::endgroup::
+[2026-10-20T19:40:47.727+0000] {local_task_job_runner.py:127} ERROR - Received SIGTERM. Terminating subprocesses
+[2026-10-20T19:40:47.738+0000] {process_utils.py:132} INFO - Sending 15 to group 116. PIDs of all processes in the group: [116]
+[2026-10-20T19:40:47.739+0000] {process_utils.py:87} INFO - Sending the signal 15 to group 116

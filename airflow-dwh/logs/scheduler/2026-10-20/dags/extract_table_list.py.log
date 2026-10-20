@@ -1,0 +1,385 @@
+[2026-10-20T19:20:17.257+0000] {processor.py:186} INFO - Started process (PID=30) to work on /opt/airflow/dags/dags/extract_table_list.py
+[2026-10-20T19:20:17.258+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/dags/extract_table_list.py for tasks to queue
+[2026-10-20T19:20:17.261+0000] {logging_mixin.py:190} INFO - [2026-10-20T19:20:17.260+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/dags/extract_table_list.py
+[2026-10-20T19:20:17.285+0000] {processor.py:925} INFO - DAG(s) 'extract_dwh_table_list' retrieved from /opt/airflow/dags/dags/extract_table_list.py
+[2026-10-20T19:20:17.562+0000] {logging_mixin.py:190} INFO - [2026-10-20T19:20:17.561+0000] {override.py:1912} INFO - Created Permission View: can read on DAG:extract_dwh_table_list
+[2026-10-20T19:20:17.583+0000] {logging_mixin.py:190} INFO - [2026-10-20T19:20:17.581+0000] {override.py:1912} INFO - Created Permission View: can edit on DAG:extract_dwh_table_list
+[2026-10-20T19:20:17.600+0000] {logging_mixin.py:190} INFO - [2026-10-20T19:20:17.600+0000] {override.py:1912} INFO - Created Permission View: can delete on DAG:extract_dwh_table_list
+[2026-10-20T19:20:17.625+0000] {logging_mixin.py:190} INFO - [2026-10-20T19:20:17.624+0000] {override.py:1912} INFO - Created Permission View: can read on DAG Run:extract_dwh_table_list
+[2026-10-20T19:20:17.642+0000] {logging_mixin.py:190} INFO - [2026-10-20T19:20:17.642+0000] {override.py:1912} INFO - Created Permission View: menu access on DAG Run:extract_dwh_table_list
+[2026-10-20T19:20:17.652+0000] {logging_mixin.py:190} INFO - [2026-10-20T19:20:17.651+0000] {override.py:1912} INFO - Created Permission View: can create on DAG Run:extract_dwh_table_list
+[2026-10-20T19:20:17.661+0000] {logging_mixin.py:190} INFO - [2026-10-20T19:20:17.660+0000] {override.py:1912} INFO - Created Permission View: can delete on DAG Run:extract_dwh_table_list
+[2026-10-20T19:20:17.661+0000] {logging_mixin.py:190} INFO - [2026-10-20T19:20:17.661+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2026-10-20T19:20:17.677+0000] {logging_mixin.py:190} INFO - [2026-10-20T19:20:17.677+0000] {dag.py:3262} INFO - Creating ORM DAG for extract_dwh_table_list
+[2026-10-20T19:20:17.691+0000] {logging_mixin.py:190} INFO - [2026-10-20T19:20:17.690+0000] {dag.py:4180} INFO - Setting next_dagrun for extract_dwh_table_list to 2026-10-20 19:00:00+00:00, run_after=2026-10-20 19:15:00+00:00
+[2026-10-20T19:20:17.714+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/dags/extract_table_list.py took 0.465 seconds
+[2026-10-20T19:22:39.750+0000] {processor.py:186} INFO - Started process (PID=53) to work on /opt/airflow/dags/dags/extract_table_list.py
+[2026-10-20T19:22:39.751+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/dags/extract_table_list.py for tasks to queue
+[2026-10-20T19:22:39.752+0000] {logging_mixin.py:190} INFO - [2026-10-20T19:22:39.751+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/dags/extract_table_list.py
+[2026-10-20T19:22:39.756+0000] {processor.py:925} INFO - DAG(s) 'extract_dwh_table_list' retrieved from /opt/airflow/dags/dags/extract_table_list.py
+[2026-10-20T19:22:39.778+0000] {logging_mixin.py:190} INFO - [2026-10-20T19:22:39.777+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2026-10-20T19:22:39.794+0000] {logging_mixin.py:190} INFO - [2026-10-20T19:22:39.794+0000] {dag.py:4180} INFO - Setting next_dagrun for extract_dwh_table_list to 2026-10-20 19:15:00+00:00, run_after=2026-10-20 19:30:00+00:00
+[2026-10-20T19:22:39.818+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/dags/extract_table_list.py took 0.073 seconds
+[2026-10-20T19:24:58.741+0000] {processor.py:186} INFO - Started process (PID=60) to work on /opt/airflow/dags/dags/extract_table_list.py
+[2026-10-20T19:24:58.742+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/dags/extract_table_list.py for tasks to queue
+[2026-10-20T19:24:58.743+0000] {logging_mixin.py:190} INFO - [2026-10-20T19:24:58.743+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/dags/extract_table_list.py
+[2026-10-20T19:24:58.748+0000] {processor.py:925} INFO - DAG(s) 'extract_dwh_table_list' retrieved from /opt/airflow/dags/dags/extract_table_list.py
+[2026-10-20T19:24:58.779+0000] {logging_mixin.py:190} INFO - [2026-10-20T19:24:58.779+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2026-10-20T19:24:58.799+0000] {logging_mixin.py:190} INFO - [2026-10-20T19:24:58.799+0000] {dag.py:4180} INFO - Setting next_dagrun for extract_dwh_table_list to 2026-10-20 19:15:00+00:00, run_after=2026-10-20 19:30:00+00:00
+[2026-10-20T19:24:58.820+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/dags/extract_table_list.py took 0.084 seconds
+[2026-10-20T19:31:56.534+0000] {processor.py:186} INFO - Started process (PID=83) to work on /opt/airflow/dags/dags/extract_table_list.py
+[2026-10-20T19:31:56.535+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/dags/extract_table_list.py for tasks to queue
+[2026-10-20T19:31:56.536+0000] {logging_mixin.py:190} INFO - [2026-10-20T19:31:56.536+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/dags/extract_table_list.py
+[2026-10-20T19:31:56.540+0000] {processor.py:925} INFO - DAG(s) 'extract_dwh_table_list' retrieved from /opt/airflow/dags/dags/extract_table_list.py
+[2026-10-20T19:31:56.559+0000] {logging_mixin.py:190} INFO - [2026-10-20T19:31:56.559+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2026-10-20T19:31:56.581+0000] {logging_mixin.py:190} INFO - [2026-10-20T19:31:56.581+0000] {dag.py:4180} INFO - Setting next_dagrun for extract_dwh_table_list to 2026-10-20 19:15:00+00:00, run_after=2026-10-20 19:30:00+00:00
+[2026-10-20T19:31:56.599+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/dags/extract_table_list.py took 0.070 seconds
+[2026-10-20T19:34:15.798+0000] {processor.py:186} INFO - Started process (PID=90) to work on /opt/airflow/dags/dags/extract_table_list.py
+[2026-10-20T19:34:15.798+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/dags/extract_table_list.py for tasks to queue
+[2026-10-20T19:34:15.799+0000] {logging_mixin.py:190} INFO - [2026-10-20T19:34:15.799+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/dags/extract_table_list.py
+[2026-10-20T19:34:15.804+0000] {processor.py:925} INFO - DAG(s) 'extract_dwh_table_list' retrieved from /opt/airflow/dags/dags/extract_table_list.py
+[2026-10-20T19:34:15.830+0000] {logging_mixin.py:190} INFO - [2026-10-20T19:34:15.829+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2026-10-20T19:34:15.847+0000] {logging_mixin.py:190} INFO - [2026-10-20T19:34:15.847+0000] {dag.py:4180} INFO - Setting next_dagrun for extract_dwh_table_list to 2026-10-20 19:30:00+00:00, run_after=2026-10-20 19:45:00+00:00
+[2026-10-20T19:34:15.865+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/dags/extract_table_list.py took 0.071 seconds
+[2026-10-20T19:34:45.949+0000] {processor.py:186} INFO - Started process (PID=91) to work on /opt/airflow/dags/dags/extract_table_list.py
+[2026-10-20T19:34:45.949+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/dags/extract_table_list.py for tasks to queue
+[2026-10-20T19:34:45.951+0000] {logging_mixin.py:190} INFO - [2026-10-20T19:34:45.950+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/dags/extract_table_list.py
+[2026-10-20T19:34:45.955+0000] {processor.py:925} INFO - DAG(s) 'extract_dwh_table_list' retrieved from /opt/airflow/dags/dags/extract_table_list.py
+[2026-10-20T19:34:45.974+0000] {logging_mixin.py:190} INFO - [2026-10-20T19:34:45.974+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2026-10-20T19:34:45.993+0000] {logging_mixin.py:190} INFO - [2026-10-20T19:34:45.993+0000] {dag.py:4180} INFO - Setting next_dagrun for extract_dwh_table_list to 2026-10-20 19:30:00+00:00, run_after=2026-10-20 19:45:00+00:00
+[2026-10-20T19:34:46.009+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/dags/extract_table_list.py took 0.065 seconds
+[2026-10-20T19:35:16.294+0000] {processor.py:186} INFO - Started process (PID=92) to work on /opt/airflow/dags/dags/extract_table_list.py
+[2026-10-20T19:35:16.294+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/dags/extract_table_list.py for tasks to queue
+[2026-10-20T19:35:16.296+0000] {logging_mixin.py:190} INFO - [2026-10-20T19:35:16.295+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/dags/extract_table_list.py
+[2026-10-20T19:35:16.302+0000] {processor.py:925} INFO - DAG(s) 'extract_dwh_table_list' retrieved from /opt/airflow/dags/dags/extract_table_list.py
+[2026-10-20T19:35:16.329+0000] {logging_mixin.py:190} INFO - [2026-10-20T19:35:16.329+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2026-10-20T19:35:16.349+0000] {logging_mixin.py:190} INFO - [2026-10-20T19:35:16.349+0000] {dag.py:4180} INFO - Setting next_dagrun for extract_dwh_table_list to 2026-10-20 19:30:00+00:00, run_after=2026-10-20 19:45:00+00:00
+[2026-10-20T19:35:16.367+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/dags/extract_table_list.py took 0.078 seconds
+[2026-10-20T19:37:57.154+0000] {processor.py:186} INFO - Started process (PID=99) to work on /opt/airflow/dags/dags/extract_table_list.py
+[2026-10-20T19:37:57.154+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/dags/extract_table_list.py for tasks to queue
+[2026-10-20T19:37:57.155+0000] {logging_mixin.py:190} INFO - [2026-10-20T19:37:57.155+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/dags/extract_table_list.py
+[2026-10-20T19:37:57.160+0000] {processor.py:925} INFO - DAG(s) 'extract_dwh_table_list' retrieved from /opt/airflow/dags/dags/extract_table_list.py
+[2026-10-20T19:37:57.179+0000] {logging_mixin.py:190} INFO - [2026-10-20T19:37:57.179+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2026-10-20T19:37:57.196+0000] {logging_mixin.py:190} INFO - [2026-10-20T19:37:57.196+0000] {dag.py:4180} INFO - Setting next_dagrun for extract_dwh_table_list to 2026-10-20 19:30:00+00:00, run_after=2026-10-20 19:45:00+00:00
+[2026-10-20T19:37:57.213+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/dags/extract_table_list.py took 0.065 seconds
+[2026-10-20T19:41:27.943+0000] {processor.py:186} INFO - Started process (PID=30) to work on /opt/airflow/dags/dags/extract_table_list.py
+[2026-10-20T19:41:27.944+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/dags/extract_table_list.py for tasks to queue
+[2026-10-20T19:41:27.947+0000] {logging_mixin.py:190} INFO - [2026-10-20T19:41:27.946+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/dags/extract_table_list.py
+[2026-10-20T19:41:27.958+0000] {processor.py:925} INFO - DAG(s) 'extract_dwh_table_list' retrieved from /opt/airflow/dags/dags/extract_table_list.py
+[2026-10-20T19:41:28.138+0000] {logging_mixin.py:190} INFO - [2026-10-20T19:41:28.137+0000] {override.py:1912} INFO - Created Permission View: can delete on DAG:extract_dwh_table_list
+[2026-10-20T19:41:28.151+0000] {logging_mixin.py:190} INFO - [2026-10-20T19:41:28.151+0000] {override.py:1912} INFO - Created Permission View: can read on DAG:extract_dwh_table_list
+[2026-10-20T19:41:28.160+0000] {logging_mixin.py:190} INFO - [2026-10-20T19:41:28.160+0000] {override.py:1912} INFO - Created Permission View: can edit on DAG:extract_dwh_table_list
+[2026-10-20T19:41:28.173+0000] {logging_mixin.py:190} INFO - [2026-10-20T19:41:28.173+0000] {override.py:1912} INFO - Created Permission View: can delete on DAG Run:extract_dwh_table_list
+[2026-10-20T19:41:28.183+0000] {logging_mixin.py:190} INFO - [2026-10-20T19:41:28.182+0000] {override.py:1912} INFO - Created Permission View: menu access on DAG Run:extract_dwh_table_list
+[2026-10-20T19:41:28.192+0000] {logging_mixin.py:190} INFO - [2026-10-20T19:41:28.191+0000] {override.py:1912} INFO - Created Permission View: can read on DAG Run:extract_dwh_table_list
+[2026-10-20T19:41:28.201+0000] {logging_mixin.py:190} INFO - [2026-10-20T19:41:28.201+0000] {override.py:1912} INFO - Created Permission View: can create on DAG Run:extract_dwh_table_list
+[2026-10-20T19:41:28.202+0000] {logging_mixin.py:190} INFO - [2026-10-20T19:41:28.201+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2026-10-20T19:41:28.217+0000] {logging_mixin.py:190} INFO - [2026-10-20T19:41:28.217+0000] {dag.py:3262} INFO - Creating ORM DAG for extract_dwh_table_list
+[2026-10-20T19:41:28.231+0000] {logging_mixin.py:190} INFO - [2026-10-20T19:41:28.231+0000] {dag.py:4180} INFO - Setting next_dagrun for extract_dwh_table_list to 2026-10-20 19:15:00+00:00, run_after=2026-10-20 19:30:00+00:00
+[2026-10-20T19:41:28.251+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/dags/extract_table_list.py took 0.315 seconds
+[2026-10-20T19:43:49.412+0000] {processor.py:186} INFO - Started process (PID=58) to work on /opt/airflow/dags/dags/extract_table_list.py
+[2026-10-20T19:43:49.413+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/dags/extract_table_list.py for tasks to queue
+[2026-10-20T19:43:49.414+0000] {logging_mixin.py:190} INFO - [2026-10-20T19:43:49.414+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/dags/extract_table_list.py
+[2026-10-20T19:43:49.420+0000] {logging_mixin.py:190} INFO - [2026-10-20T19:43:49.417+0000] {dagbag.py:387} ERROR - Failed to import: /opt/airflow/dags/dags/extract_table_list.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.12/site-packages/airflow/models/dagbag.py", line 383, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 995, in exec_module
+  File "<frozen importlib._bootstrap_external>", line 1133, in get_code
+  File "<frozen importlib._bootstrap_external>", line 1063, in source_to_code
+  File "<frozen importlib._bootstrap>", line 488, in _call_with_frames_removed
+  File "/opt/airflow/dags/dags/extract_table_list.py", line 11
+    host="dwh", port=5432, dbname="dwh", user="postgres", password="postgres",password="postgres",
+                                                                              ^^^^^^^^^^^^^^^^^^^
+SyntaxError: keyword argument repeated: password
+[2026-10-20T19:43:49.420+0000] {processor.py:927} WARNING - No viable dags retrieved from /opt/airflow/dags/dags/extract_table_list.py
+[2026-10-20T19:43:49.439+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/dags/extract_table_list.py took 0.032 seconds
+[2026-10-20T19:44:20.480+0000] {processor.py:186} INFO - Started process (PID=59) to work on /opt/airflow/dags/dags/extract_table_list.py
+[2026-10-20T19:44:20.481+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/dags/extract_table_list.py for tasks to queue
+[2026-10-20T19:44:20.482+0000] {logging_mixin.py:190} INFO - [2026-10-20T19:44:20.482+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/dags/extract_table_list.py
+[2026-10-20T19:44:20.485+0000] {logging_mixin.py:190} INFO - [2026-10-20T19:44:20.484+0000] {dagbag.py:387} ERROR - Failed to import: /opt/airflow/dags/dags/extract_table_list.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.12/site-packages/airflow/models/dagbag.py", line 383, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 995, in exec_module
+  File "<frozen importlib._bootstrap_external>", line 1133, in get_code
+  File "<frozen importlib._bootstrap_external>", line 1063, in source_to_code
+  File "<frozen importlib._bootstrap>", line 488, in _call_with_frames_removed
+  File "/opt/airflow/dags/dags/extract_table_list.py", line 11
+    host="dwh", port=5432, dbname="dwh", user="postgres", password="postgres",password="postgres",
+                                                                              ^^^^^^^^^^^^^^^^^^^
+SyntaxError: keyword argument repeated: password
+[2026-10-20T19:44:20.486+0000] {processor.py:927} WARNING - No viable dags retrieved from /opt/airflow/dags/dags/extract_table_list.py
+[2026-10-20T19:44:20.501+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/dags/extract_table_list.py took 0.025 seconds
+[2026-10-20T19:44:50.725+0000] {processor.py:186} INFO - Started process (PID=66) to work on /opt/airflow/dags/dags/extract_table_list.py
+[2026-10-20T19:44:50.726+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/dags/extract_table_list.py for tasks to queue
+[2026-10-20T19:44:50.727+0000] {logging_mixin.py:190} INFO - [2026-10-20T19:44:50.727+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/dags/extract_table_list.py
+[2026-10-20T19:44:50.730+0000] {logging_mixin.py:190} INFO - [2026-10-20T19:44:50.729+0000] {dagbag.py:387} ERROR - Failed to import: /opt/airflow/dags/dags/extract_table_list.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.12/site-packages/airflow/models/dagbag.py", line 383, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 995, in exec_module
+  File "<frozen importlib._bootstrap_external>", line 1133, in get_code
+  File "<frozen importlib._bootstrap_external>", line 1063, in source_to_code
+  File "<frozen importlib._bootstrap>", line 488, in _call_with_frames_removed
+  File "/opt/airflow/dags/dags/extract_table_list.py", line 11
+    host="dwh", port=5432, dbname="dwh", user="postgres", password="postgres",password="postgres",
+                                                                              ^^^^^^^^^^^^^^^^^^^
+SyntaxError: keyword argument repeated: password
+[2026-10-20T19:44:50.731+0000] {processor.py:927} WARNING - No viable dags retrieved from /opt/airflow/dags/dags/extract_table_list.py
+[2026-10-20T19:44:50.747+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/dags/extract_table_list.py took 0.026 seconds
+[2026-10-20T19:45:20.959+0000] {processor.py:186} INFO - Started process (PID=67) to work on /opt/airflow/dags/dags/extract_table_list.py
+[2026-10-20T19:45:20.960+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/dags/extract_table_list.py for tasks to queue
+[2026-10-20T19:45:20.961+0000] {logging_mixin.py:190} INFO - [2026-10-20T19:45:20.961+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/dags/extract_table_list.py
+[2026-10-20T19:45:20.964+0000] {logging_mixin.py:190} INFO - [2026-10-20T19:45:20.963+0000] {dagbag.py:387} ERROR - Failed to import: /opt/airflow/dags/dags/extract_table_list.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.12/site-packages/airflow/models/dagbag.py", line 383, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 995, in exec_module
+  File "<frozen importlib._bootstrap_external>", line 1133, in get_code
+  File "<frozen importlib._bootstrap_external>", line 1063, in source_to_code
+  File "<frozen importlib._bootstrap>", line 488, in _call_with_frames_removed
+  File "/opt/airflow/dags/dags/extract_table_list.py", line 11
+    host="dwh", port=5432, dbname="dwh", user="postgres", password="postgres",password="postgres",
+                                                                              ^^^^^^^^^^^^^^^^^^^
+SyntaxError: keyword argument repeated: password
+[2026-10-20T19:45:20.964+0000] {processor.py:927} WARNING - No viable dags retrieved from /opt/airflow/dags/dags/extract_table_list.py
+[2026-10-20T19:45:20.981+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/dags/extract_table_list.py took 0.027 seconds
+[2026-10-20T19:45:51.189+0000] {processor.py:186} INFO - Started process (PID=68) to work on /opt/airflow/dags/dags/extract_table_list.py
+[2026-10-20T19:45:51.190+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/dags/extract_table_list.py for tasks to queue
+[2026-10-20T19:45:51.191+0000] {logging_mixin.py:190} INFO - [2026-10-20T19:45:51.191+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/dags/extract_table_list.py
+[2026-10-20T19:45:51.194+0000] {logging_mixin.py:190} INFO - [2026-10-20T19:45:51.193+0000] {dagbag.py:387} ERROR - Failed to import: /opt/airflow/dags/dags/extract_table_list.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.12/site-packages/airflow/models/dagbag.py", line 383, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 995, in exec_module
+  File "<frozen importlib._bootstrap_external>", line 1133, in get_code
+  File "<frozen importlib._bootstrap_external>", line 1063, in source_to_code
+  File "<frozen importlib._bootstrap>", line 488, in _call_with_frames_removed
+  File "/opt/airflow/dags/dags/extract_table_list.py", line 11
+    host="dwh", port=5432, dbname="dwh", user="postgres", password="postgres",password="postgres",
+                                                                              ^^^^^^^^^^^^^^^^^^^
+SyntaxError: keyword argument repeated: password
+[2026-10-20T19:45:51.194+0000] {processor.py:927} WARNING - No viable dags retrieved from /opt/airflow/dags/dags/extract_table_list.py
+[2026-10-20T19:45:51.210+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/dags/extract_table_list.py took 0.026 seconds
+[2026-10-20T19:46:21.481+0000] {processor.py:186} INFO - Started process (PID=69) to work on /opt/airflow/dags/dags/extract_table_list.py
+[2026-10-20T19:46:21.481+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/dags/extract_table_list.py for tasks to queue
+[2026-10-20T19:46:21.482+0000] {logging_mixin.py:190} INFO - [2026-10-20T19:46:21.482+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/dags/extract_table_list.py
+[2026-10-20T19:46:21.485+0000] {logging_mixin.py:190} INFO - [2026-10-20T19:46:21.485+0000] {dagbag.py:387} ERROR - Failed to import: /opt/airflow/dags/dags/extract_table_list.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.12/site-packages/airflow/models/dagbag.py", line 383, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 995, in exec_module
+  File "<frozen importlib._bootstrap_external>", line 1133, in get_code
+  File "<frozen importlib._bootstrap_external>", line 1063, in source_to_code
+  File "<frozen importlib._bootstrap>", line 488, in _call_with_frames_removed
+  File "/opt/airflow/dags/dags/extract_table_list.py", line 11
+    host="dwh", port=5432, dbname="dwh", user="postgres", password="postgres",password="postgres",
+                                                                              ^^^^^^^^^^^^^^^^^^^
+SyntaxError: keyword argument repeated: password
+[2026-10-20T19:46:21.486+0000] {processor.py:927} WARNING - No viable dags retrieved from /opt/airflow/dags/dags/extract_table_list.py
+[2026-10-20T19:46:21.501+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/dags/extract_table_list.py took 0.025 seconds
+[2026-10-20T19:46:51.711+0000] {processor.py:186} INFO - Started process (PID=70) to work on /opt/airflow/dags/dags/extract_table_list.py
+[2026-10-20T19:46:51.712+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/dags/extract_table_list.py for tasks to queue
+[2026-10-20T19:46:51.714+0000] {logging_mixin.py:190} INFO - [2026-10-20T19:46:51.713+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/dags/extract_table_list.py
+[2026-10-20T19:46:51.718+0000] {logging_mixin.py:190} INFO - [2026-10-20T19:46:51.717+0000] {dagbag.py:387} ERROR - Failed to import: /opt/airflow/dags/dags/extract_table_list.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.12/site-packages/airflow/models/dagbag.py", line 383, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 995, in exec_module
+  File "<frozen importlib._bootstrap_external>", line 1133, in get_code
+  File "<frozen importlib._bootstrap_external>", line 1063, in source_to_code
+  File "<frozen importlib._bootstrap>", line 488, in _call_with_frames_removed
+  File "/opt/airflow/dags/dags/extract_table_list.py", line 11
+    host="dwh", port=5432, dbname="dwh", user="postgres", password="postgres",password="postgres",
+                                                                              ^^^^^^^^^^^^^^^^^^^
+SyntaxError: keyword argument repeated: password
+[2026-10-20T19:46:51.719+0000] {processor.py:927} WARNING - No viable dags retrieved from /opt/airflow/dags/dags/extract_table_list.py
+[2026-10-20T19:46:51.742+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/dags/extract_table_list.py took 0.038 seconds
+[2026-10-20T19:47:21.943+0000] {processor.py:186} INFO - Started process (PID=71) to work on /opt/airflow/dags/dags/extract_table_list.py
+[2026-10-20T19:47:21.943+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/dags/extract_table_list.py for tasks to queue
+[2026-10-20T19:47:21.945+0000] {logging_mixin.py:190} INFO - [2026-10-20T19:47:21.944+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/dags/extract_table_list.py
+[2026-10-20T19:47:21.948+0000] {logging_mixin.py:190} INFO - [2026-10-20T19:47:21.947+0000] {dagbag.py:387} ERROR - Failed to import: /opt/airflow/dags/dags/extract_table_list.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.12/site-packages/airflow/models/dagbag.py", line 383, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 995, in exec_module
+  File "<frozen importlib._bootstrap_external>", line 1133, in get_code
+  File "<frozen importlib._bootstrap_external>", line 1063, in source_to_code
+  File "<frozen importlib._bootstrap>", line 488, in _call_with_frames_removed
+  File "/opt/airflow/dags/dags/extract_table_list.py", line 11
+    host="dwh", port=5432, dbname="dwh", user="postgres", password="postgres",password="postgres",
+                                                                              ^^^^^^^^^^^^^^^^^^^
+SyntaxError: keyword argument repeated: password
+[2026-10-20T19:47:21.948+0000] {processor.py:927} WARNING - No viable dags retrieved from /opt/airflow/dags/dags/extract_table_list.py
+[2026-10-20T19:47:21.965+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/dags/extract_table_list.py took 0.027 seconds
+[2026-10-20T19:47:52.176+0000] {processor.py:186} INFO - Started process (PID=72) to work on /opt/airflow/dags/dags/extract_table_list.py
+[2026-10-20T19:47:52.176+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/dags/extract_table_list.py for tasks to queue
+[2026-10-20T19:47:52.178+0000] {logging_mixin.py:190} INFO - [2026-10-20T19:47:52.177+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/dags/extract_table_list.py
+[2026-10-20T19:47:52.181+0000] {logging_mixin.py:190} INFO - [2026-10-20T19:47:52.180+0000] {dagbag.py:387} ERROR - Failed to import: /opt/airflow/dags/dags/extract_table_list.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.12/site-packages/airflow/models/dagbag.py", line 383, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 995, in exec_module
+  File "<frozen importlib._bootstrap_external>", line 1133, in get_code
+  File "<frozen importlib._bootstrap_external>", line 1063, in source_to_code
+  File "<frozen importlib._bootstrap>", line 488, in _call_with_frames_removed
+  File "/opt/airflow/dags/dags/extract_table_list.py", line 11
+    host="dwh", port=5432, dbname="dwh", user="postgres", password="postgres",password="postgres",
+                                                                              ^^^^^^^^^^^^^^^^^^^
+SyntaxError: keyword argument repeated: password
+[2026-10-20T19:47:52.181+0000] {processor.py:927} WARNING - No viable dags retrieved from /opt/airflow/dags/dags/extract_table_list.py
+[2026-10-20T19:47:52.196+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/dags/extract_table_list.py took 0.025 seconds
+[2026-10-20T19:48:08.388+0000] {processor.py:186} INFO - Started process (PID=73) to work on /opt/airflow/dags/dags/extract_table_list.py
+[2026-10-20T19:48:08.389+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/dags/extract_table_list.py for tasks to queue
+[2026-10-20T19:48:08.390+0000] {logging_mixin.py:190} INFO - [2026-10-20T19:48:08.390+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/dags/extract_table_list.py
+[2026-10-20T19:48:08.393+0000] {logging_mixin.py:190} INFO - [2026-10-20T19:48:08.392+0000] {dagbag.py:387} ERROR - Failed to import: /opt/airflow/dags/dags/extract_table_list.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.12/site-packages/airflow/models/dagbag.py", line 383, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 995, in exec_module
+  File "<frozen importlib._bootstrap_external>", line 1133, in get_code
+  File "<frozen importlib._bootstrap_external>", line 1063, in source_to_code
+  File "<frozen importlib._bootstrap>", line 488, in _call_with_frames_removed
+  File "/opt/airflow/dags/dags/extract_table_list.py", line 11
+    host="localhost", port=5432, dbname="dwh", user="postgres", password="postgres",password="postgres",
+                                                                                    ^^^^^^^^^^^^^^^^^^^
+SyntaxError: keyword argument repeated: password
+[2026-10-20T19:48:08.394+0000] {processor.py:927} WARNING - No viable dags retrieved from /opt/airflow/dags/dags/extract_table_list.py
+[2026-10-20T19:48:08.409+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/dags/extract_table_list.py took 0.025 seconds
+[2026-10-20T19:48:10.167+0000] {processor.py:186} INFO - Started process (PID=74) to work on /opt/airflow/dags/dags/extract_table_list.py
+[2026-10-20T19:48:10.167+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/dags/extract_table_list.py for tasks to queue
+[2026-10-20T19:48:10.168+0000] {logging_mixin.py:190} INFO - [2026-10-20T19:48:10.168+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/dags/extract_table_list.py
+[2026-10-20T19:48:10.171+0000] {logging_mixin.py:190} INFO - [2026-10-20T19:48:10.170+0000] {dagbag.py:387} ERROR - Failed to import: /opt/airflow/dags/dags/extract_table_list.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.12/site-packages/airflow/models/dagbag.py", line 383, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 995, in exec_module
+  File "<frozen importlib._bootstrap_external>", line 1133, in get_code
+  File "<frozen importlib._bootstrap_external>", line 1063, in source_to_code
+  File "<frozen importlib._bootstrap>", line 488, in _call_with_frames_removed
+  File "/opt/airflow/dags/dags/extract_table_list.py", line 11
+    host="localhost", port=5432, dbname="dwh", user="postgres", password="postgres",password="postgres",
+                                                                                    ^^^^^^^^^^^^^^^^^^^
+SyntaxError: keyword argument repeated: password
+[2026-10-20T19:48:10.172+0000] {processor.py:927} WARNING - No viable dags retrieved from /opt/airflow/dags/dags/extract_table_list.py
+[2026-10-20T19:48:10.187+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/dags/extract_table_list.py took 0.025 seconds
+[2026-10-20T19:49:00.551+0000] {processor.py:186} INFO - Started process (PID=36) to work on /opt/airflow/dags/dags/extract_table_list.py
+[2026-10-20T19:49:00.552+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/dags/extract_table_list.py for tasks to queue
+[2026-10-20T19:49:00.554+0000] {logging_mixin.py:190} INFO - [2026-10-20T19:49:00.554+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/dags/extract_table_list.py
+[2026-10-20T19:49:00.559+0000] {logging_mixin.py:190} INFO - [2026-10-20T19:49:00.557+0000] {dagbag.py:387} ERROR - Failed to import: /opt/airflow/dags/dags/extract_table_list.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.12/site-packages/airflow/models/dagbag.py", line 383, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 995, in exec_module
+  File "<frozen importlib._bootstrap_external>", line 1133, in get_code
+  File "<frozen importlib._bootstrap_external>", line 1063, in source_to_code
+  File "<frozen importlib._bootstrap>", line 488, in _call_with_frames_removed
+  File "/opt/airflow/dags/dags/extract_table_list.py", line 11
+    host="localhost", port=5432, dbname="dwh", user="postgres", password="postgres",password="postgres",
+                                                                                    ^^^^^^^^^^^^^^^^^^^
+SyntaxError: keyword argument repeated: password
+[2026-10-20T19:49:00.560+0000] {processor.py:927} WARNING - No viable dags retrieved from /opt/airflow/dags/dags/extract_table_list.py
+[2026-10-20T19:49:00.585+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/dags/extract_table_list.py took 0.041 seconds
+[2026-10-20T19:49:31.191+0000] {processor.py:186} INFO - Started process (PID=51) to work on /opt/airflow/dags/dags/extract_table_list.py
+[2026-10-20T19:49:31.191+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/dags/extract_table_list.py for tasks to queue
+[2026-10-20T19:49:31.193+0000] {logging_mixin.py:190} INFO - [2026-10-20T19:49:31.193+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/dags/extract_table_list.py
+[2026-10-20T19:49:31.197+0000] {logging_mixin.py:190} INFO - [2026-10-20T19:49:31.195+0000] {dagbag.py:387} ERROR - Failed to import: /opt/airflow/dags/dags/extract_table_list.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.12/site-packages/airflow/models/dagbag.py", line 383, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 995, in exec_module
+  File "<frozen importlib._bootstrap_external>", line 1133, in get_code
+  File "<frozen importlib._bootstrap_external>", line 1063, in source_to_code
+  File "<frozen importlib._bootstrap>", line 488, in _call_with_frames_removed
+  File "/opt/airflow/dags/dags/extract_table_list.py", line 11
+    host="localhost", port=5432, dbname="dwh", user="postgres", password="postgres",password="postgres",
+                                                                                    ^^^^^^^^^^^^^^^^^^^
+SyntaxError: keyword argument repeated: password
+[2026-10-20T19:49:31.197+0000] {processor.py:927} WARNING - No viable dags retrieved from /opt/airflow/dags/dags/extract_table_list.py
+[2026-10-20T19:49:31.281+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/dags/extract_table_list.py took 0.097 seconds
+[2026-10-20T19:50:01.669+0000] {processor.py:186} INFO - Started process (PID=54) to work on /opt/airflow/dags/dags/extract_table_list.py
+[2026-10-20T19:50:01.669+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/dags/extract_table_list.py for tasks to queue
+[2026-10-20T19:50:01.672+0000] {logging_mixin.py:190} INFO - [2026-10-20T19:50:01.672+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/dags/extract_table_list.py
+[2026-10-20T19:50:01.677+0000] {logging_mixin.py:190} INFO - [2026-10-20T19:50:01.675+0000] {dagbag.py:387} ERROR - Failed to import: /opt/airflow/dags/dags/extract_table_list.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.12/site-packages/airflow/models/dagbag.py", line 383, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 995, in exec_module
+  File "<frozen importlib._bootstrap_external>", line 1133, in get_code
+  File "<frozen importlib._bootstrap_external>", line 1063, in source_to_code
+  File "<frozen importlib._bootstrap>", line 488, in _call_with_frames_removed
+  File "/opt/airflow/dags/dags/extract_table_list.py", line 11
+    host="localhost", port=5432, dbname="dwh", user="postgres", password="postgres",password="postgres",
+                                                                                    ^^^^^^^^^^^^^^^^^^^
+SyntaxError: keyword argument repeated: password
+[2026-10-20T19:50:01.677+0000] {processor.py:927} WARNING - No viable dags retrieved from /opt/airflow/dags/dags/extract_table_list.py
+[2026-10-20T19:50:01.694+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/dags/extract_table_list.py took 0.030 seconds
+[2026-10-20T19:50:31.782+0000] {processor.py:186} INFO - Started process (PID=55) to work on /opt/airflow/dags/dags/extract_table_list.py
+[2026-10-20T19:50:31.783+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/dags/extract_table_list.py for tasks to queue
+[2026-10-20T19:50:31.785+0000] {logging_mixin.py:190} INFO - [2026-10-20T19:50:31.784+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/dags/extract_table_list.py
+[2026-10-20T19:50:31.790+0000] {logging_mixin.py:190} INFO - [2026-10-20T19:50:31.789+0000] {dagbag.py:387} ERROR - Failed to import: /opt/airflow/dags/dags/extract_table_list.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.12/site-packages/airflow/models/dagbag.py", line 383, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 995, in exec_module
+  File "<frozen importlib._bootstrap_external>", line 1133, in get_code
+  File "<frozen importlib._bootstrap_external>", line 1063, in source_to_code
+  File "<frozen importlib._bootstrap>", line 488, in _call_with_frames_removed
+  File "/opt/airflow/dags/dags/extract_table_list.py", line 11
+    host="localhost", port=5432, dbname="dwh", user="postgres", password="postgres",password="postgres",
+                                                                                    ^^^^^^^^^^^^^^^^^^^
+SyntaxError: keyword argument repeated: password
+[2026-10-20T19:50:31.790+0000] {processor.py:927} WARNING - No viable dags retrieved from /opt/airflow/dags/dags/extract_table_list.py
+[2026-10-20T19:50:31.805+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/dags/extract_table_list.py took 0.027 seconds
+[2026-10-20T19:51:02.262+0000] {processor.py:186} INFO - Started process (PID=56) to work on /opt/airflow/dags/dags/extract_table_list.py
+[2026-10-20T19:51:02.262+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/dags/extract_table_list.py for tasks to queue
+[2026-10-20T19:51:02.264+0000] {logging_mixin.py:190} INFO - [2026-10-20T19:51:02.264+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/dags/extract_table_list.py
+[2026-10-20T19:51:02.267+0000] {logging_mixin.py:190} INFO - [2026-10-20T19:51:02.266+0000] {dagbag.py:387} ERROR - Failed to import: /opt/airflow/dags/dags/extract_table_list.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.12/site-packages/airflow/models/dagbag.py", line 383, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 995, in exec_module
+  File "<frozen importlib._bootstrap_external>", line 1133, in get_code
+  File "<frozen importlib._bootstrap_external>", line 1063, in source_to_code
+  File "<frozen importlib._bootstrap>", line 488, in _call_with_frames_removed
+  File "/opt/airflow/dags/dags/extract_table_list.py", line 11
+    host="localhost", port=5432, dbname="dwh", user="postgres", password="postgres",password="postgres",
+                                                                                    ^^^^^^^^^^^^^^^^^^^
+SyntaxError: keyword argument repeated: password
+[2026-10-20T19:51:02.268+0000] {processor.py:927} WARNING - No viable dags retrieved from /opt/airflow/dags/dags/extract_table_list.py
+[2026-10-20T19:51:02.284+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/dags/extract_table_list.py took 0.028 seconds
+[2026-10-20T19:51:32.598+0000] {processor.py:186} INFO - Started process (PID=57) to work on /opt/airflow/dags/dags/extract_table_list.py
+[2026-10-20T19:51:32.599+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/dags/extract_table_list.py for tasks to queue
+[2026-10-20T19:51:32.601+0000] {logging_mixin.py:190} INFO - [2026-10-20T19:51:32.600+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/dags/extract_table_list.py
+[2026-10-20T19:51:32.604+0000] {logging_mixin.py:190} INFO - [2026-10-20T19:51:32.603+0000] {dagbag.py:387} ERROR - Failed to import: /opt/airflow/dags/dags/extract_table_list.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.12/site-packages/airflow/models/dagbag.py", line 383, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 995, in exec_module
+  File "<frozen importlib._bootstrap_external>", line 1133, in get_code
+  File "<frozen importlib._bootstrap_external>", line 1063, in source_to_code
+  File "<frozen importlib._bootstrap>", line 488, in _call_with_frames_removed
+  File "/opt/airflow/dags/dags/extract_table_list.py", line 11
+    host="localhost", port=5432, dbname="dwh", user="postgres", password="postgres",password="postgres",
+                                                                                    ^^^^^^^^^^^^^^^^^^^
+SyntaxError: keyword argument repeated: password
+[2026-10-20T19:51:32.604+0000] {processor.py:927} WARNING - No viable dags retrieved from /opt/airflow/dags/dags/extract_table_list.py
+[2026-10-20T19:51:32.623+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/dags/extract_table_list.py took 0.030 seconds
+[2026-10-20T19:52:02.968+0000] {processor.py:186} INFO - Started process (PID=58) to work on /opt/airflow/dags/dags/extract_table_list.py
+[2026-10-20T19:52:02.969+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/dags/extract_table_list.py for tasks to queue
+[2026-10-20T19:52:02.971+0000] {logging_mixin.py:190} INFO - [2026-10-20T19:52:02.971+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/dags/extract_table_list.py
+[2026-10-20T19:52:02.974+0000] {logging_mixin.py:190} INFO - [2026-10-20T19:52:02.973+0000] {dagbag.py:387} ERROR - Failed to import: /opt/airflow/dags/dags/extract_table_list.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.12/site-packages/airflow/models/dagbag.py", line 383, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 995, in exec_module
+  File "<frozen importlib._bootstrap_external>", line 1133, in get_code
+  File "<frozen importlib._bootstrap_external>", line 1063, in source_to_code
+  File "<frozen importlib._bootstrap>", line 488, in _call_with_frames_removed
+  File "/opt/airflow/dags/dags/extract_table_list.py", line 11
+    host="localhost", port=5432, dbname="dwh", user="postgres", password="postgres",password="postgres",
+                                                                                    ^^^^^^^^^^^^^^^^^^^
+SyntaxError: keyword argument repeated: password
+[2026-10-20T19:52:02.974+0000] {processor.py:927} WARNING - No viable dags retrieved from /opt/airflow/dags/dags/extract_table_list.py
+[2026-10-20T19:52:02.989+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/dags/extract_table_list.py took 0.026 seconds

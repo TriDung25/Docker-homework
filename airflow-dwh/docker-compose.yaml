@@ -1,0 +1,38 @@
+services:
+  dwh:
+    image: pgvector/pgvector:pg18
+    container_name: dwh
+    environment:
+      POSTGRES_USER: postgres
+      POSTGRES_PASSWORD: postgres
+      POSTGRES_DB: dwh
+    ports:
+      - "5432:5432"
+      - "8081:8080"
+    volumes:
+      - dwh_data:/var/lib/postgresql
+      - ../pagila-sql/pagila-schema.sql:/docker-entrypoint-initdb.d/1-schema.sql
+      - ../pagila-sql/pagila-data.sql:/docker-entrypoint-initdb.d/2-data.sql
+
+  airflow:
+    image: apache/airflow:2.10.5
+    container_name: airflow
+    user: "${AIRFLOW_UID:-50000}:0"
+    network_mode: "service:dwh"
+    depends_on:
+      - dwh
+    environment:
+      AIRFLOW__CORE__LOAD_EXAMPLES: "false"
+      AIRFLOW__CORE__DAGS_ARE_PAUSED_AT_CREATION: "false"
+    volumes:
+      - ./dags:/opt/airflow/dags
+      - ./logs:/opt/airflow/logs
+      - ./output:/opt/airflow/output
+    command: >
+      bash -c "airflow db migrate &&
+      airflow users create --username admin --password admin
+      --firstname Admin --lastname User --role Admin --email admin@example.com || true;
+      airflow scheduler & exec airflow webserver"
+
+volumes:
+  dwh_data:

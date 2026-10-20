@@ -1,0 +1,372 @@
+[2026-10-20T19:20:17.105+0000] {manager.py:483} INFO - Processing files using up to 1 processes at a time 
+[2026-10-20T19:20:17.105+0000] {manager.py:484} INFO - Process each file at most once every 30 seconds
+[2026-10-20T19:20:17.106+0000] {manager.py:485} INFO - Checking for new files in /opt/airflow/dags every 300 seconds
+[2026-10-20T19:20:17.107+0000] {manager.py:821} INFO - Searching for files in /opt/airflow/dags
+[2026-10-20T19:20:17.117+0000] {manager.py:824} INFO - There are 1 files in /opt/airflow/dags
+[2026-10-20T19:20:17.752+0000] {manager.py:997} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                     PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run               Last # of DB Queries
+--------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------  ----------------------
+/opt/airflow/dags/dags/extract_table_list.py                           1           0  0.51s           2026-10-20T19:20:17                      45
+================================================================================
+[2026-10-20T19:22:39.293+0000] {manager.py:465} INFO - Exiting gracefully upon receiving signal 15
+[2026-10-20T19:22:39.678+0000] {manager.py:483} INFO - Processing files using up to 1 processes at a time 
+[2026-10-20T19:22:39.679+0000] {manager.py:484} INFO - Process each file at most once every 30 seconds
+[2026-10-20T19:22:39.679+0000] {manager.py:485} INFO - Checking for new files in /opt/airflow/dags every 300 seconds
+[2026-10-20T19:22:39.679+0000] {manager.py:821} INFO - Searching for files in /opt/airflow/dags
+[2026-10-20T19:22:39.682+0000] {manager.py:824} INFO - There are 1 files in /opt/airflow/dags
+[2026-10-20T19:22:39.846+0000] {manager.py:997} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                     PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run               Last # of DB Queries
+--------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------  ----------------------
+/opt/airflow/dags/dags/extract_table_list.py                           1           0  0.11s           2026-10-20T19:22:39                      12
+================================================================================
+[2026-10-20T19:24:58.286+0000] {manager.py:465} INFO - Exiting gracefully upon receiving signal 15
+[2026-10-20T19:24:58.691+0000] {manager.py:483} INFO - Processing files using up to 1 processes at a time 
+[2026-10-20T19:24:58.691+0000] {manager.py:484} INFO - Process each file at most once every 30 seconds
+[2026-10-20T19:24:58.691+0000] {manager.py:485} INFO - Checking for new files in /opt/airflow/dags every 300 seconds
+[2026-10-20T19:24:58.691+0000] {manager.py:821} INFO - Searching for files in /opt/airflow/dags
+[2026-10-20T19:24:58.693+0000] {manager.py:824} INFO - There are 1 files in /opt/airflow/dags
+[2026-10-20T19:24:58.838+0000] {manager.py:997} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                     PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run               Last # of DB Queries
+--------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------  ----------------------
+/opt/airflow/dags/dags/extract_table_list.py                           1           0  0.11s           2026-10-20T19:24:58                      12
+================================================================================
+[2026-10-20T19:31:56.118+0000] {manager.py:465} INFO - Exiting gracefully upon receiving signal 15
+[2026-10-20T19:31:56.486+0000] {manager.py:483} INFO - Processing files using up to 1 processes at a time 
+[2026-10-20T19:31:56.486+0000] {manager.py:484} INFO - Process each file at most once every 30 seconds
+[2026-10-20T19:31:56.487+0000] {manager.py:485} INFO - Checking for new files in /opt/airflow/dags every 300 seconds
+[2026-10-20T19:31:56.487+0000] {manager.py:821} INFO - Searching for files in /opt/airflow/dags
+[2026-10-20T19:31:56.488+0000] {manager.py:824} INFO - There are 1 files in /opt/airflow/dags
+[2026-10-20T19:31:56.626+0000] {manager.py:997} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                     PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run               Last # of DB Queries
+--------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------  ----------------------
+/opt/airflow/dags/dags/extract_table_list.py                           1           0  0.11s           2026-10-20T19:31:56                      12
+================================================================================
+[2026-10-20T19:34:15.391+0000] {manager.py:465} INFO - Exiting gracefully upon receiving signal 15
+[2026-10-20T19:34:15.758+0000] {manager.py:483} INFO - Processing files using up to 1 processes at a time 
+[2026-10-20T19:34:15.758+0000] {manager.py:484} INFO - Process each file at most once every 30 seconds
+[2026-10-20T19:34:15.758+0000] {manager.py:485} INFO - Checking for new files in /opt/airflow/dags every 300 seconds
+[2026-10-20T19:34:15.758+0000] {manager.py:821} INFO - Searching for files in /opt/airflow/dags
+[2026-10-20T19:34:15.760+0000] {manager.py:824} INFO - There are 1 files in /opt/airflow/dags
+[2026-10-20T19:34:15.894+0000] {manager.py:997} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                     PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run               Last # of DB Queries
+--------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------  ----------------------
+/opt/airflow/dags/dags/extract_table_list.py                           1           0  0.11s           2026-10-20T19:34:15                      12
+================================================================================
+[2026-10-20T19:34:46.043+0000] {manager.py:997} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                     PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run               Last # of DB Queries
+--------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------  ----------------------
+/opt/airflow/dags/dags/extract_table_list.py                           1           0  0.11s           2026-10-20T19:34:46                      12
+================================================================================
+[2026-10-20T19:35:16.388+0000] {manager.py:997} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                     PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run               Last # of DB Queries
+--------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------  ----------------------
+/opt/airflow/dags/dags/extract_table_list.py                           1           0  0.11s           2026-10-20T19:35:16                      12
+================================================================================
+[2026-10-20T19:37:56.623+0000] {manager.py:465} INFO - Exiting gracefully upon receiving signal 15
+[2026-10-20T19:37:56.949+0000] {manager.py:483} INFO - Processing files using up to 1 processes at a time 
+[2026-10-20T19:37:56.949+0000] {manager.py:484} INFO - Process each file at most once every 30 seconds
+[2026-10-20T19:37:56.949+0000] {manager.py:485} INFO - Checking for new files in /opt/airflow/dags every 300 seconds
+[2026-10-20T19:37:56.950+0000] {manager.py:821} INFO - Searching for files in /opt/airflow/dags
+[2026-10-20T19:37:56.951+0000] {manager.py:824} INFO - There are 1 files in /opt/airflow/dags
+[2026-10-20T19:37:57.249+0000] {manager.py:997} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                     PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run               Last # of DB Queries
+--------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------  ----------------------
+/opt/airflow/dags/dags/extract_table_list.py                           1           0  0.11s           2026-10-20T19:37:57                      12
+================================================================================
+[2026-10-20T19:40:48.748+0000] {manager.py:465} INFO - Exiting gracefully upon receiving signal 15
+[2026-10-20T19:41:27.859+0000] {manager.py:483} INFO - Processing files using up to 1 processes at a time 
+[2026-10-20T19:41:27.860+0000] {manager.py:484} INFO - Process each file at most once every 30 seconds
+[2026-10-20T19:41:27.860+0000] {manager.py:485} INFO - Checking for new files in /opt/airflow/dags every 300 seconds
+[2026-10-20T19:41:27.861+0000] {manager.py:821} INFO - Searching for files in /opt/airflow/dags
+[2026-10-20T19:41:27.863+0000] {manager.py:824} INFO - There are 1 files in /opt/airflow/dags
+[2026-10-20T19:41:28.341+0000] {manager.py:997} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                     PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run               Last # of DB Queries
+--------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------  ----------------------
+/opt/airflow/dags/dags/extract_table_list.py                           1           0  0.41s           2026-10-20T19:41:28                      45
+================================================================================
+[2026-10-20T19:43:48.893+0000] {manager.py:465} INFO - Exiting gracefully upon receiving signal 15
+[2026-10-20T19:43:49.369+0000] {manager.py:483} INFO - Processing files using up to 1 processes at a time 
+[2026-10-20T19:43:49.370+0000] {manager.py:484} INFO - Process each file at most once every 30 seconds
+[2026-10-20T19:43:49.370+0000] {manager.py:485} INFO - Checking for new files in /opt/airflow/dags every 300 seconds
+[2026-10-20T19:43:49.370+0000] {manager.py:821} INFO - Searching for files in /opt/airflow/dags
+[2026-10-20T19:43:49.372+0000] {manager.py:824} INFO - There are 1 files in /opt/airflow/dags
+[2026-10-20T19:43:49.508+0000] {manager.py:997} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                     PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run               Last # of DB Queries
+--------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------  ----------------------
+/opt/airflow/dags/dags/extract_table_list.py                           0           1  0.11s           2026-10-20T19:43:49                       3
+================================================================================
+[2026-10-20T19:44:20.575+0000] {manager.py:997} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                     PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run               Last # of DB Queries
+--------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------  ----------------------
+/opt/airflow/dags/dags/extract_table_list.py                           0           1  0.11s           2026-10-20T19:44:20                       5
+================================================================================
+[2026-10-20T19:44:50.820+0000] {manager.py:997} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                     PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run               Last # of DB Queries
+--------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------  ----------------------
+/opt/airflow/dags/dags/extract_table_list.py                           0           1  0.11s           2026-10-20T19:44:50                       5
+================================================================================
+[2026-10-20T19:45:21.053+0000] {manager.py:997} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                     PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run               Last # of DB Queries
+--------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------  ----------------------
+/opt/airflow/dags/dags/extract_table_list.py                           0           1  0.11s           2026-10-20T19:45:21                       5
+================================================================================
+[2026-10-20T19:45:51.283+0000] {manager.py:997} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                     PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run               Last # of DB Queries
+--------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------  ----------------------
+/opt/airflow/dags/dags/extract_table_list.py                           0           1  0.11s           2026-10-20T19:45:51                       5
+================================================================================
+[2026-10-20T19:46:21.575+0000] {manager.py:997} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                     PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run               Last # of DB Queries
+--------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------  ----------------------
+/opt/airflow/dags/dags/extract_table_list.py                           0           1  0.11s           2026-10-20T19:46:21                       5
+================================================================================
+[2026-10-20T19:46:51.802+0000] {manager.py:997} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                     PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run               Last # of DB Queries
+--------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------  ----------------------
+/opt/airflow/dags/dags/extract_table_list.py                           0           1  0.11s           2026-10-20T19:46:51                       5
+================================================================================
+[2026-10-20T19:47:22.037+0000] {manager.py:997} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                     PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run               Last # of DB Queries
+--------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------  ----------------------
+/opt/airflow/dags/dags/extract_table_list.py                           0           1  0.11s           2026-10-20T19:47:22                       5
+================================================================================
+[2026-10-20T19:47:52.270+0000] {manager.py:997} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                     PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run               Last # of DB Queries
+--------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------  ----------------------
+/opt/airflow/dags/dags/extract_table_list.py                           0           1  0.11s           2026-10-20T19:47:52                       5
+================================================================================
+[2026-10-20T19:48:21.892+0000] {manager.py:465} INFO - Exiting gracefully upon receiving signal 15
+[2026-10-20T19:49:00.469+0000] {manager.py:483} INFO - Processing files using up to 1 processes at a time 
+[2026-10-20T19:49:00.470+0000] {manager.py:484} INFO - Process each file at most once every 30 seconds
+[2026-10-20T19:49:00.470+0000] {manager.py:485} INFO - Checking for new files in /opt/airflow/dags every 300 seconds
+[2026-10-20T19:49:00.470+0000] {manager.py:821} INFO - Searching for files in /opt/airflow/dags
+[2026-10-20T19:49:00.473+0000] {manager.py:824} INFO - There are 1 files in /opt/airflow/dags
+[2026-10-20T19:49:00.656+0000] {manager.py:997} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                     PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run               Last # of DB Queries
+--------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------  ----------------------
+/opt/airflow/dags/dags/extract_table_list.py                           0           1  0.11s           2026-10-20T19:49:00                       3
+================================================================================
+[2026-10-20T19:49:31.382+0000] {manager.py:997} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                     PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run               Last # of DB Queries
+--------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------  ----------------------
+/opt/airflow/dags/dags/extract_table_list.py                           0           1  0.21s           2026-10-20T19:49:31                       5
+================================================================================
+[2026-10-20T19:50:01.763+0000] {manager.py:997} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                     PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run               Last # of DB Queries
+--------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------  ----------------------
+/opt/airflow/dags/dags/extract_table_list.py                           0           1  0.11s           2026-10-20T19:50:01                       5
+================================================================================
+[2026-10-20T19:50:31.876+0000] {manager.py:997} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                     PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run               Last # of DB Queries
+--------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------  ----------------------
+/opt/airflow/dags/dags/extract_table_list.py                           0           1  0.11s           2026-10-20T19:50:31                       5
+================================================================================
+[2026-10-20T19:51:02.353+0000] {manager.py:997} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                     PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run               Last # of DB Queries
+--------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------  ----------------------
+/opt/airflow/dags/dags/extract_table_list.py                           0           1  0.11s           2026-10-20T19:51:02                       5
+================================================================================
+[2026-10-20T19:51:32.693+0000] {manager.py:997} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                     PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run               Last # of DB Queries
+--------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------  ----------------------
+/opt/airflow/dags/dags/extract_table_list.py                           0           1  0.11s           2026-10-20T19:51:32                       5
+================================================================================
+[2026-10-20T19:52:03.063+0000] {manager.py:997} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                     PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run               Last # of DB Queries
+--------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------  ----------------------
+/opt/airflow/dags/dags/extract_table_list.py                           0           1  0.11s           2026-10-20T19:52:03                       5
+================================================================================
+[2026-10-20T19:52:05.142+0000] {manager.py:1291} WARNING - Skipping processing of missing file: /opt/airflow/dags/dags/extract_table_list.py
+[2026-10-20T19:54:00.589+0000] {manager.py:821} INFO - Searching for files in /opt/airflow/dags
+[2026-10-20T19:54:00.590+0000] {manager.py:824} INFO - There are 0 files in /opt/airflow/dags
+[2026-10-20T19:59:00.780+0000] {manager.py:821} INFO - Searching for files in /opt/airflow/dags
+[2026-10-20T19:59:00.781+0000] {manager.py:824} INFO - There are 1 files in /opt/airflow/dags
+[2026-10-20T19:59:06.030+0000] {manager.py:997} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run               Last # of DB Queries
+---------------------------------------  -----  ---------  --------  ----------  --------------  -------------------  ----------------------
+/opt/airflow/dags/extract_table_list.py                           1           0  0.31s           2026-10-20T19:59:01                      45
+================================================================================
+[2026-10-20T19:59:36.100+0000] {manager.py:997} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run               Last # of DB Queries
+---------------------------------------  -----  ---------  --------  ----------  --------------  -------------------  ----------------------
+/opt/airflow/dags/extract_table_list.py                           1           0  0.11s           2026-10-20T19:59:31                      11
+================================================================================
+[2026-10-20T20:00:06.102+0000] {manager.py:997} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run               Last # of DB Queries
+---------------------------------------  -----  ---------  --------  ----------  --------------  -------------------  ----------------------
+/opt/airflow/dags/extract_table_list.py                           1           0  0.21s           2026-10-20T20:00:01                      34
+================================================================================
+[2026-10-20T20:00:36.282+0000] {manager.py:997} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run               Last # of DB Queries
+---------------------------------------  -----  ---------  --------  ----------  --------------  -------------------  ----------------------
+/opt/airflow/dags/extract_table_list.py                           1           0  0.11s           2026-10-20T20:00:32                      12
+================================================================================
+[2026-10-20T20:01:06.522+0000] {manager.py:997} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run               Last # of DB Queries
+---------------------------------------  -----  ---------  --------  ----------  --------------  -------------------  ----------------------
+/opt/airflow/dags/extract_table_list.py                           1           0  0.11s           2026-10-20T20:01:03                      12
+================================================================================
+[2026-10-20T20:01:36.617+0000] {manager.py:997} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run               Last # of DB Queries
+---------------------------------------  -----  ---------  --------  ----------  --------------  -------------------  ----------------------
+/opt/airflow/dags/extract_table_list.py                           1           0  0.11s           2026-10-20T20:01:34                      12
+================================================================================
+[2026-10-20T20:02:06.715+0000] {manager.py:997} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run               Last # of DB Queries
+---------------------------------------  -----  ---------  --------  ----------  --------------  -------------------  ----------------------
+/opt/airflow/dags/extract_table_list.py                           1           0  0.11s           2026-10-20T20:02:04                      12
+================================================================================
+[2026-10-20T20:02:36.774+0000] {manager.py:997} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run               Last # of DB Queries
+---------------------------------------  -----  ---------  --------  ----------  --------------  -------------------  ----------------------
+/opt/airflow/dags/extract_table_list.py                           1           0  0.11s           2026-10-20T20:02:34                      12
+================================================================================
+[2026-10-20T20:03:06.906+0000] {manager.py:997} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run               Last # of DB Queries
+---------------------------------------  -----  ---------  --------  ----------  --------------  -------------------  ----------------------
+/opt/airflow/dags/extract_table_list.py                           1           0  0.11s           2026-10-20T20:03:04                      12
+================================================================================
+[2026-10-20T20:03:36.998+0000] {manager.py:997} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run               Last # of DB Queries
+---------------------------------------  -----  ---------  --------  ----------  --------------  -------------------  ----------------------
+/opt/airflow/dags/extract_table_list.py                           1           0  0.11s           2026-10-20T20:03:35                      12
+================================================================================
+[2026-10-20T20:04:01.514+0000] {manager.py:821} INFO - Searching for files in /opt/airflow/dags
+[2026-10-20T20:04:01.516+0000] {manager.py:824} INFO - There are 1 files in /opt/airflow/dags
+[2026-10-20T20:04:07.112+0000] {manager.py:997} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run               Last # of DB Queries
+---------------------------------------  -----  ---------  --------  ----------  --------------  -------------------  ----------------------
+/opt/airflow/dags/extract_table_list.py                           1           0  0.11s           2026-10-20T20:04:05                      12
+================================================================================
+[2026-10-20T20:04:37.226+0000] {manager.py:997} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run               Last # of DB Queries
+---------------------------------------  -----  ---------  --------  ----------  --------------  -------------------  ----------------------
+/opt/airflow/dags/extract_table_list.py                           1           0  0.11s           2026-10-20T20:04:35                      12
+================================================================================
+[2026-10-20T20:05:07.340+0000] {manager.py:997} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run               Last # of DB Queries
+---------------------------------------  -----  ---------  --------  ----------  --------------  -------------------  ----------------------
+/opt/airflow/dags/extract_table_list.py                           1           0  0.11s           2026-10-20T20:05:06                      12
+================================================================================
+[2026-10-20T20:05:37.433+0000] {manager.py:997} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run               Last # of DB Queries
+---------------------------------------  -----  ---------  --------  ----------  --------------  -------------------  ----------------------
+/opt/airflow/dags/extract_table_list.py                           1           0  0.11s           2026-10-20T20:05:36                      12
+================================================================================
