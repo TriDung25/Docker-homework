@@ -3,3 +3,20 @@ services:
     image: python:3.11-slim
     entrypoint: ["bash", "-c"]
     command: ["pip install pandas && python -c 'import pandas; print(pandas.__version__)'"]
+
+  db:
+    image: pgvector/pgvector:pg18
+    container_name: pagila-db
+    environment:
+      POSTGRES_USER: postgres
+      POSTGRES_PASSWORD: postgres
+      POSTGRES_DB: pagila
+    ports:
+      - "5432:5432"
+    volumes:
+      - pagila_data:/var/lib/postgresql
+      - ./pagila-sql/pagila-schema.sql:/docker-entrypoint-initdb.d/1-schema.sql
+      - ./pagila-sql/pagila-data.sql:/docker-entrypoint-initdb.d/2-data.sql
+
+volumes:
+  pagila_data:
