@@ -1,0 +1,5 @@
+services:
+  app:
+    image: python:3.11-slim
+    entrypoint: ["bash", "-c"]
+    command: ["pip install pandas && python -c 'import pandas; print(pandas.__version__)'"]
