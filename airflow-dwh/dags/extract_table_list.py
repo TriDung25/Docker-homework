@@ -23,13 +23,16 @@ def extract_table_list():
     rows = cur.fetchall()
     conn.close()
 
+    lines = [" table_schema | table_name", "--------------+-----------------"]
+    lines += [f" {schema:<12} | {name}" for schema, name in rows]
+    lines.append(f"({len(rows)} rows)")
+    output = "\n".join(lines)
+
+    print(output) 
+
     os.makedirs("/opt/airflow/output", exist_ok=True)
     with open("/opt/airflow/output/table_list.txt", "w") as f:
-        f.write("table_schema | table_name\n")
-        f.write("-------------+-----------------\n")
-        for schema, name in rows:
-            f.write(f"{schema} | {name}\n")
-        f.write(f"({len(rows)} rows)\n")
+        f.write(output + "\n")
 
 
 with DAG(

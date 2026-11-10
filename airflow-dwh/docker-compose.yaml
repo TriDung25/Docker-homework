@@ -8,11 +8,27 @@ services:
       POSTGRES_DB: dwh
     ports:
       - "5432:5432"
+      - "5433:5433"
       - "8081:8080"
+      - "3000:3000"
     volumes:
       - dwh_data:/var/lib/postgresql
       - ../pagila-sql/pagila-schema.sql:/docker-entrypoint-initdb.d/1-schema.sql
       - ../pagila-sql/pagila-data.sql:/docker-entrypoint-initdb.d/2-data.sql
+
+  dwh_target:
+    image: pgvector/pgvector:pg18
+    container_name: dwh_target
+    network_mode: "service:dwh"
+    depends_on:
+      - dwh
+    environment:
+      PGPORT: "5433"
+      POSTGRES_USER: postgres
+      POSTGRES_PASSWORD: postgres
+      POSTGRES_DB: target_db
+    volumes:
+      - target_data:/var/lib/postgresql
 
   airflow:
     image: apache/airflow:2.10.5
@@ -34,5 +50,20 @@ services:
       --firstname Admin --lastname User --role Admin --email admin@example.com || true;
       airflow scheduler & exec airflow webserver"
 
+  metabase:
+    image: metabase/metabase:latest
+    container_name: metabase
+    user: "0:0"
+    network_mode: "service:dwh"
+    depends_on:
+      - dwh
+    environment:
+      MB_DB_FILE: /metabase-data/metabase.db
+      JAVA_OPTS: "-Xmx1g"
+    volumes:
+      - metabase_data:/metabase-data
+
 volumes:
   dwh_data:
+  target_data:
+  metabase_data:

@@ -1,0 +1,575 @@
+[2026-10-28T02:11:55.266+0000] {processor.py:186} INFO - Started process (PID=39) to work on /opt/airflow/dags/extract_table_list.py
+[2026-10-28T02:11:55.267+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/extract_table_list.py for tasks to queue
+[2026-10-28T02:11:55.273+0000] {logging_mixin.py:190} INFO - [2026-10-28T02:11:55.273+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/extract_table_list.py
+[2026-10-28T02:11:55.295+0000] {processor.py:925} INFO - DAG(s) 'extract_dwh_table_list' retrieved from /opt/airflow/dags/extract_table_list.py
+[2026-10-28T02:11:55.586+0000] {logging_mixin.py:190} INFO - [2026-10-28T02:11:55.585+0000] {override.py:1912} INFO - Created Permission View: can edit on DAG:extract_dwh_table_list
+[2026-10-28T02:11:55.615+0000] {logging_mixin.py:190} INFO - [2026-10-28T02:11:55.614+0000] {override.py:1912} INFO - Created Permission View: can read on DAG:extract_dwh_table_list
+[2026-10-28T02:11:55.634+0000] {logging_mixin.py:190} INFO - [2026-10-28T02:11:55.633+0000] {override.py:1912} INFO - Created Permission View: can delete on DAG:extract_dwh_table_list
+[2026-10-28T02:11:55.665+0000] {logging_mixin.py:190} INFO - [2026-10-28T02:11:55.665+0000] {override.py:1912} INFO - Created Permission View: can create on DAG Run:extract_dwh_table_list
+[2026-10-28T02:11:55.685+0000] {logging_mixin.py:190} INFO - [2026-10-28T02:11:55.685+0000] {override.py:1912} INFO - Created Permission View: menu access on DAG Run:extract_dwh_table_list
+[2026-10-28T02:11:55.708+0000] {logging_mixin.py:190} INFO - [2026-10-28T02:11:55.708+0000] {override.py:1912} INFO - Created Permission View: can read on DAG Run:extract_dwh_table_list
+[2026-10-28T02:11:55.726+0000] {logging_mixin.py:190} INFO - [2026-10-28T02:11:55.726+0000] {override.py:1912} INFO - Created Permission View: can delete on DAG Run:extract_dwh_table_list
+[2026-10-28T02:11:55.729+0000] {logging_mixin.py:190} INFO - [2026-10-28T02:11:55.729+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2026-10-28T02:11:55.764+0000] {logging_mixin.py:190} INFO - [2026-10-28T02:11:55.764+0000] {dag.py:3262} INFO - Creating ORM DAG for extract_dwh_table_list
+[2026-10-28T02:11:55.822+0000] {logging_mixin.py:190} INFO - [2026-10-28T02:11:55.822+0000] {dag.py:4180} INFO - Setting next_dagrun for extract_dwh_table_list to 2026-10-28 01:45:00+00:00, run_after=2026-10-28 02:00:00+00:00
+[2026-10-28T02:11:55.892+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/extract_table_list.py took 0.642 seconds
+[2026-10-28T02:12:26.744+0000] {processor.py:186} INFO - Started process (PID=54) to work on /opt/airflow/dags/extract_table_list.py
+[2026-10-28T02:12:26.746+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/extract_table_list.py for tasks to queue
+[2026-10-28T02:12:26.749+0000] {logging_mixin.py:190} INFO - [2026-10-28T02:12:26.749+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/extract_table_list.py
+[2026-10-28T02:12:26.763+0000] {processor.py:925} INFO - DAG(s) 'extract_dwh_table_list' retrieved from /opt/airflow/dags/extract_table_list.py
+[2026-10-28T02:12:26.805+0000] {logging_mixin.py:190} INFO - [2026-10-28T02:12:26.805+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2026-10-28T02:12:26.861+0000] {logging_mixin.py:190} INFO - [2026-10-28T02:12:26.861+0000] {dag.py:4180} INFO - Setting next_dagrun for extract_dwh_table_list to 2026-10-28 02:00:00+00:00, run_after=2026-10-28 02:15:00+00:00
+[2026-10-28T02:12:26.921+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/extract_table_list.py took 0.199 seconds
+[2026-10-28T02:12:57.584+0000] {processor.py:186} INFO - Started process (PID=66) to work on /opt/airflow/dags/extract_table_list.py
+[2026-10-28T02:12:57.586+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/extract_table_list.py for tasks to queue
+[2026-10-28T02:12:57.590+0000] {logging_mixin.py:190} INFO - [2026-10-28T02:12:57.590+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/extract_table_list.py
+[2026-10-28T02:12:57.608+0000] {processor.py:925} INFO - DAG(s) 'extract_dwh_table_list' retrieved from /opt/airflow/dags/extract_table_list.py
+[2026-10-28T02:12:57.655+0000] {logging_mixin.py:190} INFO - [2026-10-28T02:12:57.653+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2026-10-28T02:12:57.725+0000] {logging_mixin.py:190} INFO - [2026-10-28T02:12:57.724+0000] {dag.py:4180} INFO - Setting next_dagrun for extract_dwh_table_list to 2026-10-28 02:00:00+00:00, run_after=2026-10-28 02:15:00+00:00
+[2026-10-28T02:12:57.769+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/extract_table_list.py took 0.195 seconds
+[2026-10-28T02:13:28.024+0000] {processor.py:186} INFO - Started process (PID=68) to work on /opt/airflow/dags/extract_table_list.py
+[2026-10-28T02:13:28.025+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/extract_table_list.py for tasks to queue
+[2026-10-28T02:13:28.027+0000] {logging_mixin.py:190} INFO - [2026-10-28T02:13:28.026+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/extract_table_list.py
+[2026-10-28T02:13:28.035+0000] {processor.py:925} INFO - DAG(s) 'extract_dwh_table_list' retrieved from /opt/airflow/dags/extract_table_list.py
+[2026-10-28T02:13:28.053+0000] {logging_mixin.py:190} INFO - [2026-10-28T02:13:28.053+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2026-10-28T02:13:28.074+0000] {logging_mixin.py:190} INFO - [2026-10-28T02:13:28.074+0000] {dag.py:4180} INFO - Setting next_dagrun for extract_dwh_table_list to 2026-10-28 02:00:00+00:00, run_after=2026-10-28 02:15:00+00:00
+[2026-10-28T02:13:28.092+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/extract_table_list.py took 0.073 seconds
+[2026-10-28T02:13:58.189+0000] {processor.py:186} INFO - Started process (PID=70) to work on /opt/airflow/dags/extract_table_list.py
+[2026-10-28T02:13:58.190+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/extract_table_list.py for tasks to queue
+[2026-10-28T02:13:58.192+0000] {logging_mixin.py:190} INFO - [2026-10-28T02:13:58.191+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/extract_table_list.py
+[2026-10-28T02:13:58.200+0000] {processor.py:925} INFO - DAG(s) 'extract_dwh_table_list' retrieved from /opt/airflow/dags/extract_table_list.py
+[2026-10-28T02:13:58.219+0000] {logging_mixin.py:190} INFO - [2026-10-28T02:13:58.219+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2026-10-28T02:13:58.240+0000] {logging_mixin.py:190} INFO - [2026-10-28T02:13:58.240+0000] {dag.py:4180} INFO - Setting next_dagrun for extract_dwh_table_list to 2026-10-28 02:00:00+00:00, run_after=2026-10-28 02:15:00+00:00
+[2026-10-28T02:13:58.258+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/extract_table_list.py took 0.074 seconds
+[2026-10-28T02:14:28.363+0000] {processor.py:186} INFO - Started process (PID=72) to work on /opt/airflow/dags/extract_table_list.py
+[2026-10-28T02:14:28.364+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/extract_table_list.py for tasks to queue
+[2026-10-28T02:14:28.366+0000] {logging_mixin.py:190} INFO - [2026-10-28T02:14:28.366+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/extract_table_list.py
+[2026-10-28T02:14:28.374+0000] {processor.py:925} INFO - DAG(s) 'extract_dwh_table_list' retrieved from /opt/airflow/dags/extract_table_list.py
+[2026-10-28T02:14:28.392+0000] {logging_mixin.py:190} INFO - [2026-10-28T02:14:28.392+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2026-10-28T02:14:28.412+0000] {logging_mixin.py:190} INFO - [2026-10-28T02:14:28.412+0000] {dag.py:4180} INFO - Setting next_dagrun for extract_dwh_table_list to 2026-10-28 02:00:00+00:00, run_after=2026-10-28 02:15:00+00:00
+[2026-10-28T02:14:28.429+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/extract_table_list.py took 0.071 seconds
+[2026-10-28T02:14:58.505+0000] {processor.py:186} INFO - Started process (PID=74) to work on /opt/airflow/dags/extract_table_list.py
+[2026-10-28T02:14:58.506+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/extract_table_list.py for tasks to queue
+[2026-10-28T02:14:58.508+0000] {logging_mixin.py:190} INFO - [2026-10-28T02:14:58.508+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/extract_table_list.py
+[2026-10-28T02:14:58.516+0000] {processor.py:925} INFO - DAG(s) 'extract_dwh_table_list' retrieved from /opt/airflow/dags/extract_table_list.py
+[2026-10-28T02:14:58.534+0000] {logging_mixin.py:190} INFO - [2026-10-28T02:14:58.534+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2026-10-28T02:14:58.554+0000] {logging_mixin.py:190} INFO - [2026-10-28T02:14:58.554+0000] {dag.py:4180} INFO - Setting next_dagrun for extract_dwh_table_list to 2026-10-28 02:00:00+00:00, run_after=2026-10-28 02:15:00+00:00
+[2026-10-28T02:14:58.581+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/extract_table_list.py took 0.080 seconds
+[2026-10-28T02:15:28.680+0000] {processor.py:186} INFO - Started process (PID=82) to work on /opt/airflow/dags/extract_table_list.py
+[2026-10-28T02:15:28.681+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/extract_table_list.py for tasks to queue
+[2026-10-28T02:15:28.683+0000] {logging_mixin.py:190} INFO - [2026-10-28T02:15:28.683+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/extract_table_list.py
+[2026-10-28T02:15:28.691+0000] {processor.py:925} INFO - DAG(s) 'extract_dwh_table_list' retrieved from /opt/airflow/dags/extract_table_list.py
+[2026-10-28T02:15:28.709+0000] {logging_mixin.py:190} INFO - [2026-10-28T02:15:28.709+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2026-10-28T02:15:28.728+0000] {logging_mixin.py:190} INFO - [2026-10-28T02:15:28.728+0000] {dag.py:4180} INFO - Setting next_dagrun for extract_dwh_table_list to 2026-10-28 02:15:00+00:00, run_after=2026-10-28 02:30:00+00:00
+[2026-10-28T02:15:28.746+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/extract_table_list.py took 0.071 seconds
+[2026-10-28T02:15:58.850+0000] {processor.py:186} INFO - Started process (PID=84) to work on /opt/airflow/dags/extract_table_list.py
+[2026-10-28T02:15:58.851+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/extract_table_list.py for tasks to queue
+[2026-10-28T02:15:58.853+0000] {logging_mixin.py:190} INFO - [2026-10-28T02:15:58.852+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/extract_table_list.py
+[2026-10-28T02:15:58.862+0000] {processor.py:925} INFO - DAG(s) 'extract_dwh_table_list' retrieved from /opt/airflow/dags/extract_table_list.py
+[2026-10-28T02:15:58.884+0000] {logging_mixin.py:190} INFO - [2026-10-28T02:15:58.884+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2026-10-28T02:15:58.905+0000] {logging_mixin.py:190} INFO - [2026-10-28T02:15:58.905+0000] {dag.py:4180} INFO - Setting next_dagrun for extract_dwh_table_list to 2026-10-28 02:15:00+00:00, run_after=2026-10-28 02:30:00+00:00
+[2026-10-28T02:15:58.924+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/extract_table_list.py took 0.079 seconds
+[2026-10-28T02:16:29.015+0000] {processor.py:186} INFO - Started process (PID=86) to work on /opt/airflow/dags/extract_table_list.py
+[2026-10-28T02:16:29.016+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/extract_table_list.py for tasks to queue
+[2026-10-28T02:16:29.018+0000] {logging_mixin.py:190} INFO - [2026-10-28T02:16:29.018+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/extract_table_list.py
+[2026-10-28T02:16:29.026+0000] {processor.py:925} INFO - DAG(s) 'extract_dwh_table_list' retrieved from /opt/airflow/dags/extract_table_list.py
+[2026-10-28T02:16:29.044+0000] {logging_mixin.py:190} INFO - [2026-10-28T02:16:29.044+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2026-10-28T02:16:29.064+0000] {logging_mixin.py:190} INFO - [2026-10-28T02:16:29.064+0000] {dag.py:4180} INFO - Setting next_dagrun for extract_dwh_table_list to 2026-10-28 02:15:00+00:00, run_after=2026-10-28 02:30:00+00:00
+[2026-10-28T02:16:29.086+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/extract_table_list.py took 0.076 seconds
+[2026-10-28T02:16:59.184+0000] {processor.py:186} INFO - Started process (PID=88) to work on /opt/airflow/dags/extract_table_list.py
+[2026-10-28T02:16:59.186+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/extract_table_list.py for tasks to queue
+[2026-10-28T02:16:59.188+0000] {logging_mixin.py:190} INFO - [2026-10-28T02:16:59.188+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/extract_table_list.py
+[2026-10-28T02:16:59.197+0000] {processor.py:925} INFO - DAG(s) 'extract_dwh_table_list' retrieved from /opt/airflow/dags/extract_table_list.py
+[2026-10-28T02:16:59.216+0000] {logging_mixin.py:190} INFO - [2026-10-28T02:16:59.216+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2026-10-28T02:16:59.237+0000] {logging_mixin.py:190} INFO - [2026-10-28T02:16:59.237+0000] {dag.py:4180} INFO - Setting next_dagrun for extract_dwh_table_list to 2026-10-28 02:15:00+00:00, run_after=2026-10-28 02:30:00+00:00
+[2026-10-28T02:16:59.255+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/extract_table_list.py took 0.078 seconds
+[2026-10-28T02:17:29.354+0000] {processor.py:186} INFO - Started process (PID=90) to work on /opt/airflow/dags/extract_table_list.py
+[2026-10-28T02:17:29.355+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/extract_table_list.py for tasks to queue
+[2026-10-28T02:17:29.357+0000] {logging_mixin.py:190} INFO - [2026-10-28T02:17:29.356+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/extract_table_list.py
+[2026-10-28T02:17:29.365+0000] {processor.py:925} INFO - DAG(s) 'extract_dwh_table_list' retrieved from /opt/airflow/dags/extract_table_list.py
+[2026-10-28T02:17:29.385+0000] {logging_mixin.py:190} INFO - [2026-10-28T02:17:29.385+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2026-10-28T02:17:29.405+0000] {logging_mixin.py:190} INFO - [2026-10-28T02:17:29.404+0000] {dag.py:4180} INFO - Setting next_dagrun for extract_dwh_table_list to 2026-10-28 02:15:00+00:00, run_after=2026-10-28 02:30:00+00:00
+[2026-10-28T02:17:29.423+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/extract_table_list.py took 0.074 seconds
+[2026-10-28T02:17:59.528+0000] {processor.py:186} INFO - Started process (PID=92) to work on /opt/airflow/dags/extract_table_list.py
+[2026-10-28T02:17:59.531+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/extract_table_list.py for tasks to queue
+[2026-10-28T02:17:59.535+0000] {logging_mixin.py:190} INFO - [2026-10-28T02:17:59.534+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/extract_table_list.py
+[2026-10-28T02:17:59.553+0000] {processor.py:925} INFO - DAG(s) 'extract_dwh_table_list' retrieved from /opt/airflow/dags/extract_table_list.py
+[2026-10-28T02:17:59.572+0000] {logging_mixin.py:190} INFO - [2026-10-28T02:17:59.572+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2026-10-28T02:17:59.611+0000] {logging_mixin.py:190} INFO - [2026-10-28T02:17:59.610+0000] {dag.py:4180} INFO - Setting next_dagrun for extract_dwh_table_list to 2026-10-28 02:15:00+00:00, run_after=2026-10-28 02:30:00+00:00
+[2026-10-28T02:17:59.655+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/extract_table_list.py took 0.134 seconds
+[2026-10-28T02:18:29.816+0000] {processor.py:186} INFO - Started process (PID=94) to work on /opt/airflow/dags/extract_table_list.py
+[2026-10-28T02:18:29.817+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/extract_table_list.py for tasks to queue
+[2026-10-28T02:18:29.819+0000] {logging_mixin.py:190} INFO - [2026-10-28T02:18:29.818+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/extract_table_list.py
+[2026-10-28T02:18:29.827+0000] {processor.py:925} INFO - DAG(s) 'extract_dwh_table_list' retrieved from /opt/airflow/dags/extract_table_list.py
+[2026-10-28T02:18:29.844+0000] {logging_mixin.py:190} INFO - [2026-10-28T02:18:29.844+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2026-10-28T02:18:29.864+0000] {logging_mixin.py:190} INFO - [2026-10-28T02:18:29.864+0000] {dag.py:4180} INFO - Setting next_dagrun for extract_dwh_table_list to 2026-10-28 02:15:00+00:00, run_after=2026-10-28 02:30:00+00:00
+[2026-10-28T02:18:29.888+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/extract_table_list.py took 0.076 seconds
+[2026-10-28T02:18:59.981+0000] {processor.py:186} INFO - Started process (PID=96) to work on /opt/airflow/dags/extract_table_list.py
+[2026-10-28T02:18:59.982+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/extract_table_list.py for tasks to queue
+[2026-10-28T02:18:59.984+0000] {logging_mixin.py:190} INFO - [2026-10-28T02:18:59.984+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/extract_table_list.py
+[2026-10-28T02:18:59.992+0000] {processor.py:925} INFO - DAG(s) 'extract_dwh_table_list' retrieved from /opt/airflow/dags/extract_table_list.py
+[2026-10-28T02:19:00.010+0000] {logging_mixin.py:190} INFO - [2026-10-28T02:19:00.010+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2026-10-28T02:19:00.031+0000] {logging_mixin.py:190} INFO - [2026-10-28T02:19:00.030+0000] {dag.py:4180} INFO - Setting next_dagrun for extract_dwh_table_list to 2026-10-28 02:15:00+00:00, run_after=2026-10-28 02:30:00+00:00
+[2026-10-28T02:19:00.048+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/extract_table_list.py took 0.072 seconds
+[2026-10-28T02:19:30.156+0000] {processor.py:186} INFO - Started process (PID=98) to work on /opt/airflow/dags/extract_table_list.py
+[2026-10-28T02:19:30.157+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/extract_table_list.py for tasks to queue
+[2026-10-28T02:19:30.159+0000] {logging_mixin.py:190} INFO - [2026-10-28T02:19:30.158+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/extract_table_list.py
+[2026-10-28T02:19:30.167+0000] {processor.py:925} INFO - DAG(s) 'extract_dwh_table_list' retrieved from /opt/airflow/dags/extract_table_list.py
+[2026-10-28T02:19:30.187+0000] {logging_mixin.py:190} INFO - [2026-10-28T02:19:30.187+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2026-10-28T02:19:30.210+0000] {logging_mixin.py:190} INFO - [2026-10-28T02:19:30.210+0000] {dag.py:4180} INFO - Setting next_dagrun for extract_dwh_table_list to 2026-10-28 02:15:00+00:00, run_after=2026-10-28 02:30:00+00:00
+[2026-10-28T02:19:30.227+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/extract_table_list.py took 0.076 seconds
+[2026-10-28T02:20:00.319+0000] {processor.py:186} INFO - Started process (PID=100) to work on /opt/airflow/dags/extract_table_list.py
+[2026-10-28T02:20:00.320+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/extract_table_list.py for tasks to queue
+[2026-10-28T02:20:00.322+0000] {logging_mixin.py:190} INFO - [2026-10-28T02:20:00.321+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/extract_table_list.py
+[2026-10-28T02:20:00.330+0000] {processor.py:925} INFO - DAG(s) 'extract_dwh_table_list' retrieved from /opt/airflow/dags/extract_table_list.py
+[2026-10-28T02:20:00.347+0000] {logging_mixin.py:190} INFO - [2026-10-28T02:20:00.347+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2026-10-28T02:20:00.368+0000] {logging_mixin.py:190} INFO - [2026-10-28T02:20:00.368+0000] {dag.py:4180} INFO - Setting next_dagrun for extract_dwh_table_list to 2026-10-28 02:15:00+00:00, run_after=2026-10-28 02:30:00+00:00
+[2026-10-28T02:20:00.385+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/extract_table_list.py took 0.071 seconds
+[2026-10-28T02:20:30.440+0000] {processor.py:186} INFO - Started process (PID=102) to work on /opt/airflow/dags/extract_table_list.py
+[2026-10-28T02:20:30.441+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/extract_table_list.py for tasks to queue
+[2026-10-28T02:20:30.442+0000] {logging_mixin.py:190} INFO - [2026-10-28T02:20:30.442+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/extract_table_list.py
+[2026-10-28T02:20:30.451+0000] {processor.py:925} INFO - DAG(s) 'extract_dwh_table_list' retrieved from /opt/airflow/dags/extract_table_list.py
+[2026-10-28T02:20:30.469+0000] {logging_mixin.py:190} INFO - [2026-10-28T02:20:30.469+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2026-10-28T02:20:30.489+0000] {logging_mixin.py:190} INFO - [2026-10-28T02:20:30.488+0000] {dag.py:4180} INFO - Setting next_dagrun for extract_dwh_table_list to 2026-10-28 02:15:00+00:00, run_after=2026-10-28 02:30:00+00:00
+[2026-10-28T02:20:30.506+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/extract_table_list.py took 0.071 seconds
+[2026-10-28T02:21:00.606+0000] {processor.py:186} INFO - Started process (PID=104) to work on /opt/airflow/dags/extract_table_list.py
+[2026-10-28T02:21:00.606+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/extract_table_list.py for tasks to queue
+[2026-10-28T02:21:00.608+0000] {logging_mixin.py:190} INFO - [2026-10-28T02:21:00.608+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/extract_table_list.py
+[2026-10-28T02:21:00.616+0000] {processor.py:925} INFO - DAG(s) 'extract_dwh_table_list' retrieved from /opt/airflow/dags/extract_table_list.py
+[2026-10-28T02:21:00.635+0000] {logging_mixin.py:190} INFO - [2026-10-28T02:21:00.635+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2026-10-28T02:21:00.655+0000] {logging_mixin.py:190} INFO - [2026-10-28T02:21:00.655+0000] {dag.py:4180} INFO - Setting next_dagrun for extract_dwh_table_list to 2026-10-28 02:15:00+00:00, run_after=2026-10-28 02:30:00+00:00
+[2026-10-28T02:21:00.673+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/extract_table_list.py took 0.072 seconds
+[2026-10-28T02:21:30.772+0000] {processor.py:186} INFO - Started process (PID=106) to work on /opt/airflow/dags/extract_table_list.py
+[2026-10-28T02:21:30.772+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/extract_table_list.py for tasks to queue
+[2026-10-28T02:21:30.774+0000] {logging_mixin.py:190} INFO - [2026-10-28T02:21:30.774+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/extract_table_list.py
+[2026-10-28T02:21:30.783+0000] {processor.py:925} INFO - DAG(s) 'extract_dwh_table_list' retrieved from /opt/airflow/dags/extract_table_list.py
+[2026-10-28T02:21:30.803+0000] {logging_mixin.py:190} INFO - [2026-10-28T02:21:30.803+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2026-10-28T02:21:30.822+0000] {logging_mixin.py:190} INFO - [2026-10-28T02:21:30.822+0000] {dag.py:4180} INFO - Setting next_dagrun for extract_dwh_table_list to 2026-10-28 02:15:00+00:00, run_after=2026-10-28 02:30:00+00:00
+[2026-10-28T02:21:30.840+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/extract_table_list.py took 0.073 seconds
+[2026-10-28T02:22:00.940+0000] {processor.py:186} INFO - Started process (PID=108) to work on /opt/airflow/dags/extract_table_list.py
+[2026-10-28T02:22:00.940+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/extract_table_list.py for tasks to queue
+[2026-10-28T02:22:00.942+0000] {logging_mixin.py:190} INFO - [2026-10-28T02:22:00.942+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/extract_table_list.py
+[2026-10-28T02:22:00.950+0000] {processor.py:925} INFO - DAG(s) 'extract_dwh_table_list' retrieved from /opt/airflow/dags/extract_table_list.py
+[2026-10-28T02:22:00.969+0000] {logging_mixin.py:190} INFO - [2026-10-28T02:22:00.968+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2026-10-28T02:22:00.988+0000] {logging_mixin.py:190} INFO - [2026-10-28T02:22:00.988+0000] {dag.py:4180} INFO - Setting next_dagrun for extract_dwh_table_list to 2026-10-28 02:15:00+00:00, run_after=2026-10-28 02:30:00+00:00
+[2026-10-28T02:22:01.005+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/extract_table_list.py took 0.070 seconds
+[2026-10-28T02:22:31.107+0000] {processor.py:186} INFO - Started process (PID=110) to work on /opt/airflow/dags/extract_table_list.py
+[2026-10-28T02:22:31.107+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/extract_table_list.py for tasks to queue
+[2026-10-28T02:22:31.109+0000] {logging_mixin.py:190} INFO - [2026-10-28T02:22:31.109+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/extract_table_list.py
+[2026-10-28T02:22:31.117+0000] {processor.py:925} INFO - DAG(s) 'extract_dwh_table_list' retrieved from /opt/airflow/dags/extract_table_list.py
+[2026-10-28T02:22:31.136+0000] {logging_mixin.py:190} INFO - [2026-10-28T02:22:31.136+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2026-10-28T02:22:31.170+0000] {logging_mixin.py:190} INFO - [2026-10-28T02:22:31.170+0000] {dag.py:4180} INFO - Setting next_dagrun for extract_dwh_table_list to 2026-10-28 02:15:00+00:00, run_after=2026-10-28 02:30:00+00:00
+[2026-10-28T02:22:31.212+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/extract_table_list.py took 0.110 seconds
+[2026-10-28T02:23:01.387+0000] {processor.py:186} INFO - Started process (PID=112) to work on /opt/airflow/dags/extract_table_list.py
+[2026-10-28T02:23:01.388+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/extract_table_list.py for tasks to queue
+[2026-10-28T02:23:01.390+0000] {logging_mixin.py:190} INFO - [2026-10-28T02:23:01.389+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/extract_table_list.py
+[2026-10-28T02:23:01.398+0000] {processor.py:925} INFO - DAG(s) 'extract_dwh_table_list' retrieved from /opt/airflow/dags/extract_table_list.py
+[2026-10-28T02:23:01.417+0000] {logging_mixin.py:190} INFO - [2026-10-28T02:23:01.416+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2026-10-28T02:23:01.438+0000] {logging_mixin.py:190} INFO - [2026-10-28T02:23:01.438+0000] {dag.py:4180} INFO - Setting next_dagrun for extract_dwh_table_list to 2026-10-28 02:15:00+00:00, run_after=2026-10-28 02:30:00+00:00
+[2026-10-28T02:23:01.456+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/extract_table_list.py took 0.074 seconds
+[2026-10-28T02:23:31.552+0000] {processor.py:186} INFO - Started process (PID=114) to work on /opt/airflow/dags/extract_table_list.py
+[2026-10-28T02:23:31.553+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/extract_table_list.py for tasks to queue
+[2026-10-28T02:23:31.555+0000] {logging_mixin.py:190} INFO - [2026-10-28T02:23:31.554+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/extract_table_list.py
+[2026-10-28T02:23:31.563+0000] {processor.py:925} INFO - DAG(s) 'extract_dwh_table_list' retrieved from /opt/airflow/dags/extract_table_list.py
+[2026-10-28T02:23:31.583+0000] {logging_mixin.py:190} INFO - [2026-10-28T02:23:31.583+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2026-10-28T02:23:31.604+0000] {logging_mixin.py:190} INFO - [2026-10-28T02:23:31.604+0000] {dag.py:4180} INFO - Setting next_dagrun for extract_dwh_table_list to 2026-10-28 02:15:00+00:00, run_after=2026-10-28 02:30:00+00:00
+[2026-10-28T02:23:31.621+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/extract_table_list.py took 0.074 seconds
+[2026-10-28T02:24:01.731+0000] {processor.py:186} INFO - Started process (PID=116) to work on /opt/airflow/dags/extract_table_list.py
+[2026-10-28T02:24:01.731+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/extract_table_list.py for tasks to queue
+[2026-10-28T02:24:01.733+0000] {logging_mixin.py:190} INFO - [2026-10-28T02:24:01.733+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/extract_table_list.py
+[2026-10-28T02:24:01.741+0000] {processor.py:925} INFO - DAG(s) 'extract_dwh_table_list' retrieved from /opt/airflow/dags/extract_table_list.py
+[2026-10-28T02:24:01.760+0000] {logging_mixin.py:190} INFO - [2026-10-28T02:24:01.760+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2026-10-28T02:24:01.780+0000] {logging_mixin.py:190} INFO - [2026-10-28T02:24:01.779+0000] {dag.py:4180} INFO - Setting next_dagrun for extract_dwh_table_list to 2026-10-28 02:15:00+00:00, run_after=2026-10-28 02:30:00+00:00
+[2026-10-28T02:24:01.797+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/extract_table_list.py took 0.071 seconds
+[2026-10-28T02:24:31.899+0000] {processor.py:186} INFO - Started process (PID=118) to work on /opt/airflow/dags/extract_table_list.py
+[2026-10-28T02:24:31.900+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/extract_table_list.py for tasks to queue
+[2026-10-28T02:24:31.902+0000] {logging_mixin.py:190} INFO - [2026-10-28T02:24:31.902+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/extract_table_list.py
+[2026-10-28T02:24:31.910+0000] {processor.py:925} INFO - DAG(s) 'extract_dwh_table_list' retrieved from /opt/airflow/dags/extract_table_list.py
+[2026-10-28T02:24:31.928+0000] {logging_mixin.py:190} INFO - [2026-10-28T02:24:31.928+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2026-10-28T02:24:31.947+0000] {logging_mixin.py:190} INFO - [2026-10-28T02:24:31.947+0000] {dag.py:4180} INFO - Setting next_dagrun for extract_dwh_table_list to 2026-10-28 02:15:00+00:00, run_after=2026-10-28 02:30:00+00:00
+[2026-10-28T02:24:31.964+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/extract_table_list.py took 0.070 seconds
+[2026-10-28T02:25:02.085+0000] {processor.py:186} INFO - Started process (PID=120) to work on /opt/airflow/dags/extract_table_list.py
+[2026-10-28T02:25:02.086+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/extract_table_list.py for tasks to queue
+[2026-10-28T02:25:02.088+0000] {logging_mixin.py:190} INFO - [2026-10-28T02:25:02.087+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/extract_table_list.py
+[2026-10-28T02:25:02.096+0000] {processor.py:925} INFO - DAG(s) 'extract_dwh_table_list' retrieved from /opt/airflow/dags/extract_table_list.py
+[2026-10-28T02:25:02.114+0000] {logging_mixin.py:190} INFO - [2026-10-28T02:25:02.113+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2026-10-28T02:25:02.133+0000] {logging_mixin.py:190} INFO - [2026-10-28T02:25:02.133+0000] {dag.py:4180} INFO - Setting next_dagrun for extract_dwh_table_list to 2026-10-28 02:15:00+00:00, run_after=2026-10-28 02:30:00+00:00
+[2026-10-28T02:25:02.150+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/extract_table_list.py took 0.070 seconds
+[2026-10-28T02:25:32.257+0000] {processor.py:186} INFO - Started process (PID=122) to work on /opt/airflow/dags/extract_table_list.py
+[2026-10-28T02:25:32.258+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/extract_table_list.py for tasks to queue
+[2026-10-28T02:25:32.260+0000] {logging_mixin.py:190} INFO - [2026-10-28T02:25:32.260+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/extract_table_list.py
+[2026-10-28T02:25:32.268+0000] {processor.py:925} INFO - DAG(s) 'extract_dwh_table_list' retrieved from /opt/airflow/dags/extract_table_list.py
+[2026-10-28T02:25:32.287+0000] {logging_mixin.py:190} INFO - [2026-10-28T02:25:32.286+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2026-10-28T02:25:32.308+0000] {logging_mixin.py:190} INFO - [2026-10-28T02:25:32.308+0000] {dag.py:4180} INFO - Setting next_dagrun for extract_dwh_table_list to 2026-10-28 02:15:00+00:00, run_after=2026-10-28 02:30:00+00:00
+[2026-10-28T02:25:32.326+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/extract_table_list.py took 0.073 seconds
+[2026-10-28T02:26:02.423+0000] {processor.py:186} INFO - Started process (PID=124) to work on /opt/airflow/dags/extract_table_list.py
+[2026-10-28T02:26:02.424+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/extract_table_list.py for tasks to queue
+[2026-10-28T02:26:02.426+0000] {logging_mixin.py:190} INFO - [2026-10-28T02:26:02.426+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/extract_table_list.py
+[2026-10-28T02:26:02.434+0000] {processor.py:925} INFO - DAG(s) 'extract_dwh_table_list' retrieved from /opt/airflow/dags/extract_table_list.py
+[2026-10-28T02:26:02.452+0000] {logging_mixin.py:190} INFO - [2026-10-28T02:26:02.452+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2026-10-28T02:26:02.473+0000] {logging_mixin.py:190} INFO - [2026-10-28T02:26:02.473+0000] {dag.py:4180} INFO - Setting next_dagrun for extract_dwh_table_list to 2026-10-28 02:15:00+00:00, run_after=2026-10-28 02:30:00+00:00
+[2026-10-28T02:26:02.490+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/extract_table_list.py took 0.071 seconds
+[2026-10-28T02:26:32.590+0000] {processor.py:186} INFO - Started process (PID=126) to work on /opt/airflow/dags/extract_table_list.py
+[2026-10-28T02:26:32.591+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/extract_table_list.py for tasks to queue
+[2026-10-28T02:26:32.593+0000] {logging_mixin.py:190} INFO - [2026-10-28T02:26:32.592+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/extract_table_list.py
+[2026-10-28T02:26:32.601+0000] {processor.py:925} INFO - DAG(s) 'extract_dwh_table_list' retrieved from /opt/airflow/dags/extract_table_list.py
+[2026-10-28T02:26:32.620+0000] {logging_mixin.py:190} INFO - [2026-10-28T02:26:32.620+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2026-10-28T02:26:32.641+0000] {logging_mixin.py:190} INFO - [2026-10-28T02:26:32.640+0000] {dag.py:4180} INFO - Setting next_dagrun for extract_dwh_table_list to 2026-10-28 02:15:00+00:00, run_after=2026-10-28 02:30:00+00:00
+[2026-10-28T02:26:32.658+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/extract_table_list.py took 0.074 seconds
+[2026-10-28T02:27:02.755+0000] {processor.py:186} INFO - Started process (PID=128) to work on /opt/airflow/dags/extract_table_list.py
+[2026-10-28T02:27:02.756+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/extract_table_list.py for tasks to queue
+[2026-10-28T02:27:02.758+0000] {logging_mixin.py:190} INFO - [2026-10-28T02:27:02.758+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/extract_table_list.py
+[2026-10-28T02:27:02.766+0000] {processor.py:925} INFO - DAG(s) 'extract_dwh_table_list' retrieved from /opt/airflow/dags/extract_table_list.py
+[2026-10-28T02:27:02.785+0000] {logging_mixin.py:190} INFO - [2026-10-28T02:27:02.785+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2026-10-28T02:27:02.804+0000] {logging_mixin.py:190} INFO - [2026-10-28T02:27:02.804+0000] {dag.py:4180} INFO - Setting next_dagrun for extract_dwh_table_list to 2026-10-28 02:15:00+00:00, run_after=2026-10-28 02:30:00+00:00
+[2026-10-28T02:27:02.822+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/extract_table_list.py took 0.072 seconds
+[2026-10-28T02:27:32.922+0000] {processor.py:186} INFO - Started process (PID=130) to work on /opt/airflow/dags/extract_table_list.py
+[2026-10-28T02:27:32.922+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/extract_table_list.py for tasks to queue
+[2026-10-28T02:27:32.924+0000] {logging_mixin.py:190} INFO - [2026-10-28T02:27:32.924+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/extract_table_list.py
+[2026-10-28T02:27:32.932+0000] {processor.py:925} INFO - DAG(s) 'extract_dwh_table_list' retrieved from /opt/airflow/dags/extract_table_list.py
+[2026-10-28T02:27:32.950+0000] {logging_mixin.py:190} INFO - [2026-10-28T02:27:32.950+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2026-10-28T02:27:32.970+0000] {logging_mixin.py:190} INFO - [2026-10-28T02:27:32.970+0000] {dag.py:4180} INFO - Setting next_dagrun for extract_dwh_table_list to 2026-10-28 02:15:00+00:00, run_after=2026-10-28 02:30:00+00:00
+[2026-10-28T02:27:32.987+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/extract_table_list.py took 0.070 seconds
+[2026-10-28T02:28:03.122+0000] {processor.py:186} INFO - Started process (PID=132) to work on /opt/airflow/dags/extract_table_list.py
+[2026-10-28T02:28:03.123+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/extract_table_list.py for tasks to queue
+[2026-10-28T02:28:03.125+0000] {logging_mixin.py:190} INFO - [2026-10-28T02:28:03.124+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/extract_table_list.py
+[2026-10-28T02:28:03.133+0000] {processor.py:925} INFO - DAG(s) 'extract_dwh_table_list' retrieved from /opt/airflow/dags/extract_table_list.py
+[2026-10-28T02:28:03.152+0000] {logging_mixin.py:190} INFO - [2026-10-28T02:28:03.152+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2026-10-28T02:28:03.173+0000] {logging_mixin.py:190} INFO - [2026-10-28T02:28:03.173+0000] {dag.py:4180} INFO - Setting next_dagrun for extract_dwh_table_list to 2026-10-28 02:15:00+00:00, run_after=2026-10-28 02:30:00+00:00
+[2026-10-28T02:28:03.191+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/extract_table_list.py took 0.074 seconds
+[2026-10-28T02:28:33.288+0000] {processor.py:186} INFO - Started process (PID=134) to work on /opt/airflow/dags/extract_table_list.py
+[2026-10-28T02:28:33.289+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/extract_table_list.py for tasks to queue
+[2026-10-28T02:28:33.290+0000] {logging_mixin.py:190} INFO - [2026-10-28T02:28:33.290+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/extract_table_list.py
+[2026-10-28T02:28:33.298+0000] {processor.py:925} INFO - DAG(s) 'extract_dwh_table_list' retrieved from /opt/airflow/dags/extract_table_list.py
+[2026-10-28T02:28:33.318+0000] {logging_mixin.py:190} INFO - [2026-10-28T02:28:33.317+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2026-10-28T02:28:33.339+0000] {logging_mixin.py:190} INFO - [2026-10-28T02:28:33.339+0000] {dag.py:4180} INFO - Setting next_dagrun for extract_dwh_table_list to 2026-10-28 02:15:00+00:00, run_after=2026-10-28 02:30:00+00:00
+[2026-10-28T02:28:33.360+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/extract_table_list.py took 0.077 seconds
+[2026-10-28T02:29:03.454+0000] {processor.py:186} INFO - Started process (PID=136) to work on /opt/airflow/dags/extract_table_list.py
+[2026-10-28T02:29:03.455+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/extract_table_list.py for tasks to queue
+[2026-10-28T02:29:03.457+0000] {logging_mixin.py:190} INFO - [2026-10-28T02:29:03.457+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/extract_table_list.py
+[2026-10-28T02:29:03.465+0000] {processor.py:925} INFO - DAG(s) 'extract_dwh_table_list' retrieved from /opt/airflow/dags/extract_table_list.py
+[2026-10-28T02:29:03.483+0000] {logging_mixin.py:190} INFO - [2026-10-28T02:29:03.483+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2026-10-28T02:29:03.504+0000] {logging_mixin.py:190} INFO - [2026-10-28T02:29:03.503+0000] {dag.py:4180} INFO - Setting next_dagrun for extract_dwh_table_list to 2026-10-28 02:15:00+00:00, run_after=2026-10-28 02:30:00+00:00
+[2026-10-28T02:29:03.521+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/extract_table_list.py took 0.072 seconds
+[2026-10-28T02:29:33.603+0000] {processor.py:186} INFO - Started process (PID=138) to work on /opt/airflow/dags/extract_table_list.py
+[2026-10-28T02:29:33.604+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/extract_table_list.py for tasks to queue
+[2026-10-28T02:29:33.606+0000] {logging_mixin.py:190} INFO - [2026-10-28T02:29:33.606+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/extract_table_list.py
+[2026-10-28T02:29:33.615+0000] {processor.py:925} INFO - DAG(s) 'extract_dwh_table_list' retrieved from /opt/airflow/dags/extract_table_list.py
+[2026-10-28T02:29:33.634+0000] {logging_mixin.py:190} INFO - [2026-10-28T02:29:33.634+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2026-10-28T02:29:33.654+0000] {logging_mixin.py:190} INFO - [2026-10-28T02:29:33.654+0000] {dag.py:4180} INFO - Setting next_dagrun for extract_dwh_table_list to 2026-10-28 02:15:00+00:00, run_after=2026-10-28 02:30:00+00:00
+[2026-10-28T02:29:33.672+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/extract_table_list.py took 0.075 seconds
+[2026-10-28T02:30:05.221+0000] {processor.py:186} INFO - Started process (PID=145) to work on /opt/airflow/dags/extract_table_list.py
+[2026-10-28T02:30:05.222+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/extract_table_list.py for tasks to queue
+[2026-10-28T02:30:05.224+0000] {logging_mixin.py:190} INFO - [2026-10-28T02:30:05.224+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/extract_table_list.py
+[2026-10-28T02:30:05.232+0000] {processor.py:925} INFO - DAG(s) 'extract_dwh_table_list' retrieved from /opt/airflow/dags/extract_table_list.py
+[2026-10-28T02:30:05.253+0000] {logging_mixin.py:190} INFO - [2026-10-28T02:30:05.253+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2026-10-28T02:30:05.286+0000] {logging_mixin.py:190} INFO - [2026-10-28T02:30:05.286+0000] {dag.py:4180} INFO - Setting next_dagrun for extract_dwh_table_list to 2026-10-28 02:30:00+00:00, run_after=2026-10-28 02:45:00+00:00
+[2026-10-28T02:30:05.306+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/extract_table_list.py took 0.090 seconds
+[2026-10-28T02:30:35.408+0000] {processor.py:186} INFO - Started process (PID=147) to work on /opt/airflow/dags/extract_table_list.py
+[2026-10-28T02:30:35.409+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/extract_table_list.py for tasks to queue
+[2026-10-28T02:30:35.412+0000] {logging_mixin.py:190} INFO - [2026-10-28T02:30:35.411+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/extract_table_list.py
+[2026-10-28T02:30:35.420+0000] {processor.py:925} INFO - DAG(s) 'extract_dwh_table_list' retrieved from /opt/airflow/dags/extract_table_list.py
+[2026-10-28T02:30:35.438+0000] {logging_mixin.py:190} INFO - [2026-10-28T02:30:35.438+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2026-10-28T02:30:35.459+0000] {logging_mixin.py:190} INFO - [2026-10-28T02:30:35.458+0000] {dag.py:4180} INFO - Setting next_dagrun for extract_dwh_table_list to 2026-10-28 02:30:00+00:00, run_after=2026-10-28 02:45:00+00:00
+[2026-10-28T02:30:35.476+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/extract_table_list.py took 0.073 seconds
+[2026-10-28T02:31:05.740+0000] {processor.py:186} INFO - Started process (PID=149) to work on /opt/airflow/dags/extract_table_list.py
+[2026-10-28T02:31:05.740+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/extract_table_list.py for tasks to queue
+[2026-10-28T02:31:05.743+0000] {logging_mixin.py:190} INFO - [2026-10-28T02:31:05.743+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/extract_table_list.py
+[2026-10-28T02:31:05.751+0000] {processor.py:925} INFO - DAG(s) 'extract_dwh_table_list' retrieved from /opt/airflow/dags/extract_table_list.py
+[2026-10-28T02:31:05.769+0000] {logging_mixin.py:190} INFO - [2026-10-28T02:31:05.769+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2026-10-28T02:31:05.803+0000] {logging_mixin.py:190} INFO - [2026-10-28T02:31:05.799+0000] {dag.py:4180} INFO - Setting next_dagrun for extract_dwh_table_list to 2026-10-28 02:30:00+00:00, run_after=2026-10-28 02:45:00+00:00
+[2026-10-28T02:31:05.843+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/extract_table_list.py took 0.108 seconds
+[2026-10-28T02:31:36.173+0000] {processor.py:186} INFO - Started process (PID=151) to work on /opt/airflow/dags/extract_table_list.py
+[2026-10-28T02:31:36.174+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/extract_table_list.py for tasks to queue
+[2026-10-28T02:31:36.177+0000] {logging_mixin.py:190} INFO - [2026-10-28T02:31:36.176+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/extract_table_list.py
+[2026-10-28T02:31:36.185+0000] {processor.py:925} INFO - DAG(s) 'extract_dwh_table_list' retrieved from /opt/airflow/dags/extract_table_list.py
+[2026-10-28T02:31:36.206+0000] {logging_mixin.py:190} INFO - [2026-10-28T02:31:36.206+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2026-10-28T02:31:36.227+0000] {logging_mixin.py:190} INFO - [2026-10-28T02:31:36.226+0000] {dag.py:4180} INFO - Setting next_dagrun for extract_dwh_table_list to 2026-10-28 02:30:00+00:00, run_after=2026-10-28 02:45:00+00:00
+[2026-10-28T02:31:36.243+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/extract_table_list.py took 0.075 seconds
+[2026-10-28T02:32:06.466+0000] {processor.py:186} INFO - Started process (PID=153) to work on /opt/airflow/dags/extract_table_list.py
+[2026-10-28T02:32:06.467+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/extract_table_list.py for tasks to queue
+[2026-10-28T02:32:06.469+0000] {logging_mixin.py:190} INFO - [2026-10-28T02:32:06.469+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/extract_table_list.py
+[2026-10-28T02:32:06.477+0000] {processor.py:925} INFO - DAG(s) 'extract_dwh_table_list' retrieved from /opt/airflow/dags/extract_table_list.py
+[2026-10-28T02:32:06.495+0000] {logging_mixin.py:190} INFO - [2026-10-28T02:32:06.495+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2026-10-28T02:32:06.516+0000] {logging_mixin.py:190} INFO - [2026-10-28T02:32:06.516+0000] {dag.py:4180} INFO - Setting next_dagrun for extract_dwh_table_list to 2026-10-28 02:30:00+00:00, run_after=2026-10-28 02:45:00+00:00
+[2026-10-28T02:32:06.533+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/extract_table_list.py took 0.072 seconds
+[2026-10-28T02:32:36.778+0000] {processor.py:186} INFO - Started process (PID=155) to work on /opt/airflow/dags/extract_table_list.py
+[2026-10-28T02:32:36.779+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/extract_table_list.py for tasks to queue
+[2026-10-28T02:32:36.782+0000] {logging_mixin.py:190} INFO - [2026-10-28T02:32:36.781+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/extract_table_list.py
+[2026-10-28T02:32:36.790+0000] {processor.py:925} INFO - DAG(s) 'extract_dwh_table_list' retrieved from /opt/airflow/dags/extract_table_list.py
+[2026-10-28T02:32:36.809+0000] {logging_mixin.py:190} INFO - [2026-10-28T02:32:36.809+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2026-10-28T02:32:36.829+0000] {logging_mixin.py:190} INFO - [2026-10-28T02:32:36.829+0000] {dag.py:4180} INFO - Setting next_dagrun for extract_dwh_table_list to 2026-10-28 02:30:00+00:00, run_after=2026-10-28 02:45:00+00:00
+[2026-10-28T02:32:36.846+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/extract_table_list.py took 0.073 seconds
+[2026-10-28T02:33:07.111+0000] {processor.py:186} INFO - Started process (PID=157) to work on /opt/airflow/dags/extract_table_list.py
+[2026-10-28T02:33:07.112+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/extract_table_list.py for tasks to queue
+[2026-10-28T02:33:07.114+0000] {logging_mixin.py:190} INFO - [2026-10-28T02:33:07.114+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/extract_table_list.py
+[2026-10-28T02:33:07.123+0000] {processor.py:925} INFO - DAG(s) 'extract_dwh_table_list' retrieved from /opt/airflow/dags/extract_table_list.py
+[2026-10-28T02:33:07.142+0000] {logging_mixin.py:190} INFO - [2026-10-28T02:33:07.141+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2026-10-28T02:33:07.162+0000] {logging_mixin.py:190} INFO - [2026-10-28T02:33:07.161+0000] {dag.py:4180} INFO - Setting next_dagrun for extract_dwh_table_list to 2026-10-28 02:30:00+00:00, run_after=2026-10-28 02:45:00+00:00
+[2026-10-28T02:33:07.179+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/extract_table_list.py took 0.073 seconds
+[2026-10-28T02:33:37.440+0000] {processor.py:186} INFO - Started process (PID=159) to work on /opt/airflow/dags/extract_table_list.py
+[2026-10-28T02:33:37.441+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/extract_table_list.py for tasks to queue
+[2026-10-28T02:33:37.443+0000] {logging_mixin.py:190} INFO - [2026-10-28T02:33:37.443+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/extract_table_list.py
+[2026-10-28T02:33:37.452+0000] {processor.py:925} INFO - DAG(s) 'extract_dwh_table_list' retrieved from /opt/airflow/dags/extract_table_list.py
+[2026-10-28T02:33:37.470+0000] {logging_mixin.py:190} INFO - [2026-10-28T02:33:37.469+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2026-10-28T02:33:37.489+0000] {logging_mixin.py:190} INFO - [2026-10-28T02:33:37.489+0000] {dag.py:4180} INFO - Setting next_dagrun for extract_dwh_table_list to 2026-10-28 02:30:00+00:00, run_after=2026-10-28 02:45:00+00:00
+[2026-10-28T02:33:37.506+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/extract_table_list.py took 0.071 seconds
+[2026-10-28T02:34:07.733+0000] {processor.py:186} INFO - Started process (PID=161) to work on /opt/airflow/dags/extract_table_list.py
+[2026-10-28T02:34:07.734+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/extract_table_list.py for tasks to queue
+[2026-10-28T02:34:07.736+0000] {logging_mixin.py:190} INFO - [2026-10-28T02:34:07.736+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/extract_table_list.py
+[2026-10-28T02:34:07.744+0000] {processor.py:925} INFO - DAG(s) 'extract_dwh_table_list' retrieved from /opt/airflow/dags/extract_table_list.py
+[2026-10-28T02:34:07.762+0000] {logging_mixin.py:190} INFO - [2026-10-28T02:34:07.762+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2026-10-28T02:34:07.783+0000] {logging_mixin.py:190} INFO - [2026-10-28T02:34:07.783+0000] {dag.py:4180} INFO - Setting next_dagrun for extract_dwh_table_list to 2026-10-28 02:30:00+00:00, run_after=2026-10-28 02:45:00+00:00
+[2026-10-28T02:34:07.800+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/extract_table_list.py took 0.071 seconds
+[2026-10-28T02:34:38.083+0000] {processor.py:186} INFO - Started process (PID=163) to work on /opt/airflow/dags/extract_table_list.py
+[2026-10-28T02:34:38.084+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/extract_table_list.py for tasks to queue
+[2026-10-28T02:34:38.086+0000] {logging_mixin.py:190} INFO - [2026-10-28T02:34:38.085+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/extract_table_list.py
+[2026-10-28T02:34:38.094+0000] {processor.py:925} INFO - DAG(s) 'extract_dwh_table_list' retrieved from /opt/airflow/dags/extract_table_list.py
+[2026-10-28T02:34:38.112+0000] {logging_mixin.py:190} INFO - [2026-10-28T02:34:38.111+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2026-10-28T02:34:38.132+0000] {logging_mixin.py:190} INFO - [2026-10-28T02:34:38.131+0000] {dag.py:4180} INFO - Setting next_dagrun for extract_dwh_table_list to 2026-10-28 02:30:00+00:00, run_after=2026-10-28 02:45:00+00:00
+[2026-10-28T02:34:38.148+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/extract_table_list.py took 0.071 seconds
+[2026-10-28T02:35:08.424+0000] {processor.py:186} INFO - Started process (PID=165) to work on /opt/airflow/dags/extract_table_list.py
+[2026-10-28T02:35:08.424+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/extract_table_list.py for tasks to queue
+[2026-10-28T02:35:08.427+0000] {logging_mixin.py:190} INFO - [2026-10-28T02:35:08.426+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/extract_table_list.py
+[2026-10-28T02:35:08.436+0000] {processor.py:925} INFO - DAG(s) 'extract_dwh_table_list' retrieved from /opt/airflow/dags/extract_table_list.py
+[2026-10-28T02:35:08.454+0000] {logging_mixin.py:190} INFO - [2026-10-28T02:35:08.454+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2026-10-28T02:35:08.475+0000] {logging_mixin.py:190} INFO - [2026-10-28T02:35:08.475+0000] {dag.py:4180} INFO - Setting next_dagrun for extract_dwh_table_list to 2026-10-28 02:30:00+00:00, run_after=2026-10-28 02:45:00+00:00
+[2026-10-28T02:35:08.492+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/extract_table_list.py took 0.073 seconds
+[2026-10-28T02:35:38.750+0000] {processor.py:186} INFO - Started process (PID=167) to work on /opt/airflow/dags/extract_table_list.py
+[2026-10-28T02:35:38.751+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/extract_table_list.py for tasks to queue
+[2026-10-28T02:35:38.754+0000] {logging_mixin.py:190} INFO - [2026-10-28T02:35:38.753+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/extract_table_list.py
+[2026-10-28T02:35:38.762+0000] {processor.py:925} INFO - DAG(s) 'extract_dwh_table_list' retrieved from /opt/airflow/dags/extract_table_list.py
+[2026-10-28T02:35:38.781+0000] {logging_mixin.py:190} INFO - [2026-10-28T02:35:38.781+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2026-10-28T02:35:38.800+0000] {logging_mixin.py:190} INFO - [2026-10-28T02:35:38.800+0000] {dag.py:4180} INFO - Setting next_dagrun for extract_dwh_table_list to 2026-10-28 02:30:00+00:00, run_after=2026-10-28 02:45:00+00:00
+[2026-10-28T02:35:38.817+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/extract_table_list.py took 0.072 seconds
+[2026-10-28T02:36:09.010+0000] {processor.py:186} INFO - Started process (PID=169) to work on /opt/airflow/dags/extract_table_list.py
+[2026-10-28T02:36:09.012+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/extract_table_list.py for tasks to queue
+[2026-10-28T02:36:09.015+0000] {logging_mixin.py:190} INFO - [2026-10-28T02:36:09.014+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/extract_table_list.py
+[2026-10-28T02:36:09.029+0000] {processor.py:925} INFO - DAG(s) 'extract_dwh_table_list' retrieved from /opt/airflow/dags/extract_table_list.py
+[2026-10-28T02:36:09.048+0000] {logging_mixin.py:190} INFO - [2026-10-28T02:36:09.048+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2026-10-28T02:36:09.068+0000] {logging_mixin.py:190} INFO - [2026-10-28T02:36:09.068+0000] {dag.py:4180} INFO - Setting next_dagrun for extract_dwh_table_list to 2026-10-28 02:30:00+00:00, run_after=2026-10-28 02:45:00+00:00
+[2026-10-28T02:36:09.086+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/extract_table_list.py took 0.084 seconds
+[2026-10-28T02:36:39.209+0000] {processor.py:186} INFO - Started process (PID=171) to work on /opt/airflow/dags/extract_table_list.py
+[2026-10-28T02:36:39.210+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/extract_table_list.py for tasks to queue
+[2026-10-28T02:36:39.212+0000] {logging_mixin.py:190} INFO - [2026-10-28T02:36:39.212+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/extract_table_list.py
+[2026-10-28T02:36:39.220+0000] {processor.py:925} INFO - DAG(s) 'extract_dwh_table_list' retrieved from /opt/airflow/dags/extract_table_list.py
+[2026-10-28T02:36:39.238+0000] {logging_mixin.py:190} INFO - [2026-10-28T02:36:39.237+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2026-10-28T02:36:39.257+0000] {logging_mixin.py:190} INFO - [2026-10-28T02:36:39.257+0000] {dag.py:4180} INFO - Setting next_dagrun for extract_dwh_table_list to 2026-10-28 02:30:00+00:00, run_after=2026-10-28 02:45:00+00:00
+[2026-10-28T02:36:39.276+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/extract_table_list.py took 0.072 seconds
+[2026-10-28T02:37:09.582+0000] {processor.py:186} INFO - Started process (PID=173) to work on /opt/airflow/dags/extract_table_list.py
+[2026-10-28T02:37:09.583+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/extract_table_list.py for tasks to queue
+[2026-10-28T02:37:09.586+0000] {logging_mixin.py:190} INFO - [2026-10-28T02:37:09.585+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/extract_table_list.py
+[2026-10-28T02:37:09.595+0000] {processor.py:925} INFO - DAG(s) 'extract_dwh_table_list' retrieved from /opt/airflow/dags/extract_table_list.py
+[2026-10-28T02:37:09.618+0000] {logging_mixin.py:190} INFO - [2026-10-28T02:37:09.618+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2026-10-28T02:37:09.650+0000] {logging_mixin.py:190} INFO - [2026-10-28T02:37:09.650+0000] {dag.py:4180} INFO - Setting next_dagrun for extract_dwh_table_list to 2026-10-28 02:30:00+00:00, run_after=2026-10-28 02:45:00+00:00
+[2026-10-28T02:37:09.677+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/extract_table_list.py took 0.100 seconds
+[2026-10-28T02:37:40.009+0000] {processor.py:186} INFO - Started process (PID=175) to work on /opt/airflow/dags/extract_table_list.py
+[2026-10-28T02:37:40.010+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/extract_table_list.py for tasks to queue
+[2026-10-28T02:37:40.013+0000] {logging_mixin.py:190} INFO - [2026-10-28T02:37:40.012+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/extract_table_list.py
+[2026-10-28T02:37:40.021+0000] {processor.py:925} INFO - DAG(s) 'extract_dwh_table_list' retrieved from /opt/airflow/dags/extract_table_list.py
+[2026-10-28T02:37:40.039+0000] {logging_mixin.py:190} INFO - [2026-10-28T02:37:40.039+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2026-10-28T02:37:40.059+0000] {logging_mixin.py:190} INFO - [2026-10-28T02:37:40.059+0000] {dag.py:4180} INFO - Setting next_dagrun for extract_dwh_table_list to 2026-10-28 02:30:00+00:00, run_after=2026-10-28 02:45:00+00:00
+[2026-10-28T02:37:40.077+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/extract_table_list.py took 0.073 seconds
+[2026-10-28T02:38:10.272+0000] {processor.py:186} INFO - Started process (PID=177) to work on /opt/airflow/dags/extract_table_list.py
+[2026-10-28T02:38:10.273+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/extract_table_list.py for tasks to queue
+[2026-10-28T02:38:10.275+0000] {logging_mixin.py:190} INFO - [2026-10-28T02:38:10.274+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/extract_table_list.py
+[2026-10-28T02:38:10.282+0000] {processor.py:925} INFO - DAG(s) 'extract_dwh_table_list' retrieved from /opt/airflow/dags/extract_table_list.py
+[2026-10-28T02:38:10.300+0000] {logging_mixin.py:190} INFO - [2026-10-28T02:38:10.300+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2026-10-28T02:38:10.320+0000] {logging_mixin.py:190} INFO - [2026-10-28T02:38:10.320+0000] {dag.py:4180} INFO - Setting next_dagrun for extract_dwh_table_list to 2026-10-28 02:30:00+00:00, run_after=2026-10-28 02:45:00+00:00
+[2026-10-28T02:38:10.338+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/extract_table_list.py took 0.071 seconds
+[2026-10-28T02:38:40.631+0000] {processor.py:186} INFO - Started process (PID=179) to work on /opt/airflow/dags/extract_table_list.py
+[2026-10-28T02:38:40.632+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/extract_table_list.py for tasks to queue
+[2026-10-28T02:38:40.635+0000] {logging_mixin.py:190} INFO - [2026-10-28T02:38:40.634+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/extract_table_list.py
+[2026-10-28T02:38:40.647+0000] {processor.py:925} INFO - DAG(s) 'extract_dwh_table_list' retrieved from /opt/airflow/dags/extract_table_list.py
+[2026-10-28T02:38:40.669+0000] {logging_mixin.py:190} INFO - [2026-10-28T02:38:40.668+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2026-10-28T02:38:40.688+0000] {logging_mixin.py:190} INFO - [2026-10-28T02:38:40.688+0000] {dag.py:4180} INFO - Setting next_dagrun for extract_dwh_table_list to 2026-10-28 02:30:00+00:00, run_after=2026-10-28 02:45:00+00:00
+[2026-10-28T02:38:40.705+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/extract_table_list.py took 0.080 seconds
+[2026-10-28T02:39:10.964+0000] {processor.py:186} INFO - Started process (PID=181) to work on /opt/airflow/dags/extract_table_list.py
+[2026-10-28T02:39:10.965+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/extract_table_list.py for tasks to queue
+[2026-10-28T02:39:10.968+0000] {logging_mixin.py:190} INFO - [2026-10-28T02:39:10.967+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/extract_table_list.py
+[2026-10-28T02:39:10.976+0000] {processor.py:925} INFO - DAG(s) 'extract_dwh_table_list' retrieved from /opt/airflow/dags/extract_table_list.py
+[2026-10-28T02:39:10.994+0000] {logging_mixin.py:190} INFO - [2026-10-28T02:39:10.994+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2026-10-28T02:39:11.014+0000] {logging_mixin.py:190} INFO - [2026-10-28T02:39:11.013+0000] {dag.py:4180} INFO - Setting next_dagrun for extract_dwh_table_list to 2026-10-28 02:30:00+00:00, run_after=2026-10-28 02:45:00+00:00
+[2026-10-28T02:39:11.030+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/extract_table_list.py took 0.071 seconds
+[2026-10-28T02:39:41.296+0000] {processor.py:186} INFO - Started process (PID=183) to work on /opt/airflow/dags/extract_table_list.py
+[2026-10-28T02:39:41.297+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/extract_table_list.py for tasks to queue
+[2026-10-28T02:39:41.299+0000] {logging_mixin.py:190} INFO - [2026-10-28T02:39:41.299+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/extract_table_list.py
+[2026-10-28T02:39:41.308+0000] {processor.py:925} INFO - DAG(s) 'extract_dwh_table_list' retrieved from /opt/airflow/dags/extract_table_list.py
+[2026-10-28T02:39:41.331+0000] {logging_mixin.py:190} INFO - [2026-10-28T02:39:41.330+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2026-10-28T02:39:41.353+0000] {logging_mixin.py:190} INFO - [2026-10-28T02:39:41.352+0000] {dag.py:4180} INFO - Setting next_dagrun for extract_dwh_table_list to 2026-10-28 02:30:00+00:00, run_after=2026-10-28 02:45:00+00:00
+[2026-10-28T02:39:41.369+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/extract_table_list.py took 0.078 seconds
+[2026-10-28T02:40:11.630+0000] {processor.py:186} INFO - Started process (PID=185) to work on /opt/airflow/dags/extract_table_list.py
+[2026-10-28T02:40:11.631+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/extract_table_list.py for tasks to queue
+[2026-10-28T02:40:11.633+0000] {logging_mixin.py:190} INFO - [2026-10-28T02:40:11.633+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/extract_table_list.py
+[2026-10-28T02:40:11.641+0000] {processor.py:925} INFO - DAG(s) 'extract_dwh_table_list' retrieved from /opt/airflow/dags/extract_table_list.py
+[2026-10-28T02:40:11.659+0000] {logging_mixin.py:190} INFO - [2026-10-28T02:40:11.659+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2026-10-28T02:40:11.679+0000] {logging_mixin.py:190} INFO - [2026-10-28T02:40:11.679+0000] {dag.py:4180} INFO - Setting next_dagrun for extract_dwh_table_list to 2026-10-28 02:30:00+00:00, run_after=2026-10-28 02:45:00+00:00
+[2026-10-28T02:40:11.695+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/extract_table_list.py took 0.070 seconds
+[2026-10-28T02:40:41.936+0000] {processor.py:186} INFO - Started process (PID=187) to work on /opt/airflow/dags/extract_table_list.py
+[2026-10-28T02:40:41.936+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/extract_table_list.py for tasks to queue
+[2026-10-28T02:40:41.939+0000] {logging_mixin.py:190} INFO - [2026-10-28T02:40:41.939+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/extract_table_list.py
+[2026-10-28T02:40:41.947+0000] {processor.py:925} INFO - DAG(s) 'extract_dwh_table_list' retrieved from /opt/airflow/dags/extract_table_list.py
+[2026-10-28T02:40:41.965+0000] {logging_mixin.py:190} INFO - [2026-10-28T02:40:41.965+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2026-10-28T02:40:41.987+0000] {logging_mixin.py:190} INFO - [2026-10-28T02:40:41.987+0000] {dag.py:4180} INFO - Setting next_dagrun for extract_dwh_table_list to 2026-10-28 02:30:00+00:00, run_after=2026-10-28 02:45:00+00:00
+[2026-10-28T02:40:42.004+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/extract_table_list.py took 0.073 seconds
+[2026-10-28T02:41:12.266+0000] {processor.py:186} INFO - Started process (PID=189) to work on /opt/airflow/dags/extract_table_list.py
+[2026-10-28T02:41:12.266+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/extract_table_list.py for tasks to queue
+[2026-10-28T02:41:12.269+0000] {logging_mixin.py:190} INFO - [2026-10-28T02:41:12.269+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/extract_table_list.py
+[2026-10-28T02:41:12.277+0000] {processor.py:925} INFO - DAG(s) 'extract_dwh_table_list' retrieved from /opt/airflow/dags/extract_table_list.py
+[2026-10-28T02:41:12.295+0000] {logging_mixin.py:190} INFO - [2026-10-28T02:41:12.295+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2026-10-28T02:41:12.316+0000] {logging_mixin.py:190} INFO - [2026-10-28T02:41:12.315+0000] {dag.py:4180} INFO - Setting next_dagrun for extract_dwh_table_list to 2026-10-28 02:30:00+00:00, run_after=2026-10-28 02:45:00+00:00
+[2026-10-28T02:41:12.332+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/extract_table_list.py took 0.072 seconds
+[2026-10-28T02:41:42.608+0000] {processor.py:186} INFO - Started process (PID=191) to work on /opt/airflow/dags/extract_table_list.py
+[2026-10-28T02:41:42.609+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/extract_table_list.py for tasks to queue
+[2026-10-28T02:41:42.612+0000] {logging_mixin.py:190} INFO - [2026-10-28T02:41:42.611+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/extract_table_list.py
+[2026-10-28T02:41:42.619+0000] {processor.py:925} INFO - DAG(s) 'extract_dwh_table_list' retrieved from /opt/airflow/dags/extract_table_list.py
+[2026-10-28T02:41:42.646+0000] {logging_mixin.py:190} INFO - [2026-10-28T02:41:42.645+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2026-10-28T02:41:42.680+0000] {logging_mixin.py:190} INFO - [2026-10-28T02:41:42.680+0000] {dag.py:4180} INFO - Setting next_dagrun for extract_dwh_table_list to 2026-10-28 02:30:00+00:00, run_after=2026-10-28 02:45:00+00:00
+[2026-10-28T02:41:42.708+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/extract_table_list.py took 0.105 seconds
+[2026-10-28T02:42:13.087+0000] {processor.py:186} INFO - Started process (PID=193) to work on /opt/airflow/dags/extract_table_list.py
+[2026-10-28T02:42:13.088+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/extract_table_list.py for tasks to queue
+[2026-10-28T02:42:13.091+0000] {logging_mixin.py:190} INFO - [2026-10-28T02:42:13.091+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/extract_table_list.py
+[2026-10-28T02:42:13.099+0000] {processor.py:925} INFO - DAG(s) 'extract_dwh_table_list' retrieved from /opt/airflow/dags/extract_table_list.py
+[2026-10-28T02:42:13.118+0000] {logging_mixin.py:190} INFO - [2026-10-28T02:42:13.118+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2026-10-28T02:42:13.140+0000] {logging_mixin.py:190} INFO - [2026-10-28T02:42:13.140+0000] {dag.py:4180} INFO - Setting next_dagrun for extract_dwh_table_list to 2026-10-28 02:30:00+00:00, run_after=2026-10-28 02:45:00+00:00
+[2026-10-28T02:42:13.157+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/extract_table_list.py took 0.081 seconds
+[2026-10-28T02:42:43.511+0000] {processor.py:186} INFO - Started process (PID=195) to work on /opt/airflow/dags/extract_table_list.py
+[2026-10-28T02:42:43.512+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/extract_table_list.py for tasks to queue
+[2026-10-28T02:42:43.514+0000] {logging_mixin.py:190} INFO - [2026-10-28T02:42:43.514+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/extract_table_list.py
+[2026-10-28T02:42:43.523+0000] {processor.py:925} INFO - DAG(s) 'extract_dwh_table_list' retrieved from /opt/airflow/dags/extract_table_list.py
+[2026-10-28T02:42:43.544+0000] {logging_mixin.py:190} INFO - [2026-10-28T02:42:43.544+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2026-10-28T02:42:43.566+0000] {logging_mixin.py:190} INFO - [2026-10-28T02:42:43.565+0000] {dag.py:4180} INFO - Setting next_dagrun for extract_dwh_table_list to 2026-10-28 02:30:00+00:00, run_after=2026-10-28 02:45:00+00:00
+[2026-10-28T02:42:43.583+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/extract_table_list.py took 0.077 seconds
+[2026-10-28T02:43:13.839+0000] {processor.py:186} INFO - Started process (PID=197) to work on /opt/airflow/dags/extract_table_list.py
+[2026-10-28T02:43:13.839+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/extract_table_list.py for tasks to queue
+[2026-10-28T02:43:13.842+0000] {logging_mixin.py:190} INFO - [2026-10-28T02:43:13.841+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/extract_table_list.py
+[2026-10-28T02:43:13.851+0000] {processor.py:925} INFO - DAG(s) 'extract_dwh_table_list' retrieved from /opt/airflow/dags/extract_table_list.py
+[2026-10-28T02:43:13.874+0000] {logging_mixin.py:190} INFO - [2026-10-28T02:43:13.874+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2026-10-28T02:43:13.901+0000] {logging_mixin.py:190} INFO - [2026-10-28T02:43:13.901+0000] {dag.py:4180} INFO - Setting next_dagrun for extract_dwh_table_list to 2026-10-28 02:30:00+00:00, run_after=2026-10-28 02:45:00+00:00
+[2026-10-28T02:43:13.922+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/extract_table_list.py took 0.090 seconds
+[2026-10-28T02:43:44.189+0000] {processor.py:186} INFO - Started process (PID=199) to work on /opt/airflow/dags/extract_table_list.py
+[2026-10-28T02:43:44.190+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/extract_table_list.py for tasks to queue
+[2026-10-28T02:43:44.192+0000] {logging_mixin.py:190} INFO - [2026-10-28T02:43:44.191+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/extract_table_list.py
+[2026-10-28T02:43:44.200+0000] {processor.py:925} INFO - DAG(s) 'extract_dwh_table_list' retrieved from /opt/airflow/dags/extract_table_list.py
+[2026-10-28T02:43:44.218+0000] {logging_mixin.py:190} INFO - [2026-10-28T02:43:44.217+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2026-10-28T02:43:44.245+0000] {logging_mixin.py:190} INFO - [2026-10-28T02:43:44.245+0000] {dag.py:4180} INFO - Setting next_dagrun for extract_dwh_table_list to 2026-10-28 02:30:00+00:00, run_after=2026-10-28 02:45:00+00:00
+[2026-10-28T02:43:44.263+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/extract_table_list.py took 0.079 seconds
+[2026-10-28T02:44:14.512+0000] {processor.py:186} INFO - Started process (PID=201) to work on /opt/airflow/dags/extract_table_list.py
+[2026-10-28T02:44:14.513+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/extract_table_list.py for tasks to queue
+[2026-10-28T02:44:14.514+0000] {logging_mixin.py:190} INFO - [2026-10-28T02:44:14.514+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/extract_table_list.py
+[2026-10-28T02:44:14.524+0000] {processor.py:925} INFO - DAG(s) 'extract_dwh_table_list' retrieved from /opt/airflow/dags/extract_table_list.py
+[2026-10-28T02:44:14.544+0000] {logging_mixin.py:190} INFO - [2026-10-28T02:44:14.544+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2026-10-28T02:44:14.567+0000] {logging_mixin.py:190} INFO - [2026-10-28T02:44:14.567+0000] {dag.py:4180} INFO - Setting next_dagrun for extract_dwh_table_list to 2026-10-28 02:30:00+00:00, run_after=2026-10-28 02:45:00+00:00
+[2026-10-28T02:44:14.584+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/extract_table_list.py took 0.077 seconds
+[2026-10-28T02:44:44.832+0000] {processor.py:186} INFO - Started process (PID=203) to work on /opt/airflow/dags/extract_table_list.py
+[2026-10-28T02:44:44.833+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/extract_table_list.py for tasks to queue
+[2026-10-28T02:44:44.834+0000] {logging_mixin.py:190} INFO - [2026-10-28T02:44:44.834+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/extract_table_list.py
+[2026-10-28T02:44:44.843+0000] {processor.py:925} INFO - DAG(s) 'extract_dwh_table_list' retrieved from /opt/airflow/dags/extract_table_list.py
+[2026-10-28T02:44:44.865+0000] {logging_mixin.py:190} INFO - [2026-10-28T02:44:44.865+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2026-10-28T02:44:44.885+0000] {logging_mixin.py:190} INFO - [2026-10-28T02:44:44.885+0000] {dag.py:4180} INFO - Setting next_dagrun for extract_dwh_table_list to 2026-10-28 02:30:00+00:00, run_after=2026-10-28 02:45:00+00:00
+[2026-10-28T02:44:44.903+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/extract_table_list.py took 0.076 seconds
+[2026-10-28T02:45:15.210+0000] {processor.py:186} INFO - Started process (PID=210) to work on /opt/airflow/dags/extract_table_list.py
+[2026-10-28T02:45:15.211+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/extract_table_list.py for tasks to queue
+[2026-10-28T02:45:15.212+0000] {logging_mixin.py:190} INFO - [2026-10-28T02:45:15.212+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/extract_table_list.py
+[2026-10-28T02:45:15.220+0000] {processor.py:925} INFO - DAG(s) 'extract_dwh_table_list' retrieved from /opt/airflow/dags/extract_table_list.py
+[2026-10-28T02:45:15.239+0000] {logging_mixin.py:190} INFO - [2026-10-28T02:45:15.239+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2026-10-28T02:45:15.260+0000] {logging_mixin.py:190} INFO - [2026-10-28T02:45:15.260+0000] {dag.py:4180} INFO - Setting next_dagrun for extract_dwh_table_list to 2026-10-28 02:45:00+00:00, run_after=2026-10-28 03:00:00+00:00
+[2026-10-28T02:45:15.277+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/extract_table_list.py took 0.073 seconds
+[2026-10-28T02:45:45.537+0000] {processor.py:186} INFO - Started process (PID=212) to work on /opt/airflow/dags/extract_table_list.py
+[2026-10-28T02:45:45.537+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/extract_table_list.py for tasks to queue
+[2026-10-28T02:45:45.539+0000] {logging_mixin.py:190} INFO - [2026-10-28T02:45:45.539+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/extract_table_list.py
+[2026-10-28T02:45:45.547+0000] {processor.py:925} INFO - DAG(s) 'extract_dwh_table_list' retrieved from /opt/airflow/dags/extract_table_list.py
+[2026-10-28T02:45:45.566+0000] {logging_mixin.py:190} INFO - [2026-10-28T02:45:45.565+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2026-10-28T02:45:45.586+0000] {logging_mixin.py:190} INFO - [2026-10-28T02:45:45.586+0000] {dag.py:4180} INFO - Setting next_dagrun for extract_dwh_table_list to 2026-10-28 02:45:00+00:00, run_after=2026-10-28 03:00:00+00:00
+[2026-10-28T02:45:45.605+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/extract_table_list.py took 0.073 seconds
+[2026-10-28T02:46:15.883+0000] {processor.py:186} INFO - Started process (PID=214) to work on /opt/airflow/dags/extract_table_list.py
+[2026-10-28T02:46:15.884+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/extract_table_list.py for tasks to queue
+[2026-10-28T02:46:15.887+0000] {logging_mixin.py:190} INFO - [2026-10-28T02:46:15.887+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/extract_table_list.py
+[2026-10-28T02:46:15.899+0000] {processor.py:925} INFO - DAG(s) 'extract_dwh_table_list' retrieved from /opt/airflow/dags/extract_table_list.py
+[2026-10-28T02:46:15.925+0000] {logging_mixin.py:190} INFO - [2026-10-28T02:46:15.925+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2026-10-28T02:46:15.947+0000] {logging_mixin.py:190} INFO - [2026-10-28T02:46:15.947+0000] {dag.py:4180} INFO - Setting next_dagrun for extract_dwh_table_list to 2026-10-28 02:45:00+00:00, run_after=2026-10-28 03:00:00+00:00
+[2026-10-28T02:46:15.965+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/extract_table_list.py took 0.089 seconds
+[2026-10-28T02:46:46.199+0000] {processor.py:186} INFO - Started process (PID=216) to work on /opt/airflow/dags/extract_table_list.py
+[2026-10-28T02:46:46.200+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/extract_table_list.py for tasks to queue
+[2026-10-28T02:46:46.202+0000] {logging_mixin.py:190} INFO - [2026-10-28T02:46:46.202+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/extract_table_list.py
+[2026-10-28T02:46:46.210+0000] {processor.py:925} INFO - DAG(s) 'extract_dwh_table_list' retrieved from /opt/airflow/dags/extract_table_list.py
+[2026-10-28T02:46:46.230+0000] {logging_mixin.py:190} INFO - [2026-10-28T02:46:46.230+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2026-10-28T02:46:46.253+0000] {logging_mixin.py:190} INFO - [2026-10-28T02:46:46.253+0000] {dag.py:4180} INFO - Setting next_dagrun for extract_dwh_table_list to 2026-10-28 02:45:00+00:00, run_after=2026-10-28 03:00:00+00:00
+[2026-10-28T02:46:46.271+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/extract_table_list.py took 0.078 seconds
+[2026-10-28T02:47:16.660+0000] {processor.py:186} INFO - Started process (PID=218) to work on /opt/airflow/dags/extract_table_list.py
+[2026-10-28T02:47:16.662+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/extract_table_list.py for tasks to queue
+[2026-10-28T02:47:16.664+0000] {logging_mixin.py:190} INFO - [2026-10-28T02:47:16.664+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/extract_table_list.py
+[2026-10-28T02:47:16.677+0000] {processor.py:925} INFO - DAG(s) 'extract_dwh_table_list' retrieved from /opt/airflow/dags/extract_table_list.py
+[2026-10-28T02:47:16.705+0000] {logging_mixin.py:190} INFO - [2026-10-28T02:47:16.704+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2026-10-28T02:47:16.743+0000] {logging_mixin.py:190} INFO - [2026-10-28T02:47:16.742+0000] {dag.py:4180} INFO - Setting next_dagrun for extract_dwh_table_list to 2026-10-28 02:45:00+00:00, run_after=2026-10-28 03:00:00+00:00
+[2026-10-28T02:47:16.767+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/extract_table_list.py took 0.115 seconds
+[2026-10-28T02:47:47.147+0000] {processor.py:186} INFO - Started process (PID=220) to work on /opt/airflow/dags/extract_table_list.py
+[2026-10-28T02:47:47.149+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/extract_table_list.py for tasks to queue
+[2026-10-28T02:47:47.156+0000] {logging_mixin.py:190} INFO - [2026-10-28T02:47:47.152+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/extract_table_list.py
+[2026-10-28T02:47:47.179+0000] {processor.py:925} INFO - DAG(s) 'extract_dwh_table_list' retrieved from /opt/airflow/dags/extract_table_list.py
+[2026-10-28T02:47:47.204+0000] {logging_mixin.py:190} INFO - [2026-10-28T02:47:47.204+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2026-10-28T02:47:47.232+0000] {logging_mixin.py:190} INFO - [2026-10-28T02:47:47.232+0000] {dag.py:4180} INFO - Setting next_dagrun for extract_dwh_table_list to 2026-10-28 02:45:00+00:00, run_after=2026-10-28 03:00:00+00:00
+[2026-10-28T02:47:47.265+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/extract_table_list.py took 0.138 seconds
+[2026-10-28T02:48:17.401+0000] {processor.py:186} INFO - Started process (PID=222) to work on /opt/airflow/dags/extract_table_list.py
+[2026-10-28T02:48:17.406+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/extract_table_list.py for tasks to queue
+[2026-10-28T02:48:17.412+0000] {logging_mixin.py:190} INFO - [2026-10-28T02:48:17.412+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/extract_table_list.py
+[2026-10-28T02:48:17.441+0000] {processor.py:925} INFO - DAG(s) 'extract_dwh_table_list' retrieved from /opt/airflow/dags/extract_table_list.py
+[2026-10-28T02:48:17.497+0000] {logging_mixin.py:190} INFO - [2026-10-28T02:48:17.496+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2026-10-28T02:48:17.576+0000] {logging_mixin.py:190} INFO - [2026-10-28T02:48:17.576+0000] {dag.py:4180} INFO - Setting next_dagrun for extract_dwh_table_list to 2026-10-28 02:45:00+00:00, run_after=2026-10-28 03:00:00+00:00
+[2026-10-28T02:48:17.631+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/extract_table_list.py took 0.251 seconds
+[2026-10-28T02:48:47.827+0000] {processor.py:186} INFO - Started process (PID=224) to work on /opt/airflow/dags/extract_table_list.py
+[2026-10-28T02:48:47.827+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/extract_table_list.py for tasks to queue
+[2026-10-28T02:48:47.830+0000] {logging_mixin.py:190} INFO - [2026-10-28T02:48:47.830+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/extract_table_list.py
+[2026-10-28T02:48:47.840+0000] {processor.py:925} INFO - DAG(s) 'extract_dwh_table_list' retrieved from /opt/airflow/dags/extract_table_list.py
+[2026-10-28T02:48:47.864+0000] {logging_mixin.py:190} INFO - [2026-10-28T02:48:47.864+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2026-10-28T02:48:47.893+0000] {logging_mixin.py:190} INFO - [2026-10-28T02:48:47.892+0000] {dag.py:4180} INFO - Setting next_dagrun for extract_dwh_table_list to 2026-10-28 02:45:00+00:00, run_after=2026-10-28 03:00:00+00:00
+[2026-10-28T02:48:47.920+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/extract_table_list.py took 0.100 seconds
+[2026-10-28T02:49:18.204+0000] {processor.py:186} INFO - Started process (PID=226) to work on /opt/airflow/dags/extract_table_list.py
+[2026-10-28T02:49:18.205+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/extract_table_list.py for tasks to queue
+[2026-10-28T02:49:18.207+0000] {logging_mixin.py:190} INFO - [2026-10-28T02:49:18.207+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/extract_table_list.py
+[2026-10-28T02:49:18.218+0000] {processor.py:925} INFO - DAG(s) 'extract_dwh_table_list' retrieved from /opt/airflow/dags/extract_table_list.py
+[2026-10-28T02:49:18.246+0000] {logging_mixin.py:190} INFO - [2026-10-28T02:49:18.245+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2026-10-28T02:49:18.275+0000] {logging_mixin.py:190} INFO - [2026-10-28T02:49:18.275+0000] {dag.py:4180} INFO - Setting next_dagrun for extract_dwh_table_list to 2026-10-28 02:45:00+00:00, run_after=2026-10-28 03:00:00+00:00
+[2026-10-28T02:49:18.299+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/extract_table_list.py took 0.102 seconds
+[2026-10-28T02:49:48.518+0000] {processor.py:186} INFO - Started process (PID=228) to work on /opt/airflow/dags/extract_table_list.py
+[2026-10-28T02:49:48.519+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/extract_table_list.py for tasks to queue
+[2026-10-28T02:49:48.521+0000] {logging_mixin.py:190} INFO - [2026-10-28T02:49:48.520+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/extract_table_list.py
+[2026-10-28T02:49:48.529+0000] {processor.py:925} INFO - DAG(s) 'extract_dwh_table_list' retrieved from /opt/airflow/dags/extract_table_list.py
+[2026-10-28T02:49:48.553+0000] {logging_mixin.py:190} INFO - [2026-10-28T02:49:48.553+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2026-10-28T02:49:48.601+0000] {logging_mixin.py:190} INFO - [2026-10-28T02:49:48.601+0000] {dag.py:4180} INFO - Setting next_dagrun for extract_dwh_table_list to 2026-10-28 02:45:00+00:00, run_after=2026-10-28 03:00:00+00:00
+[2026-10-28T02:49:48.632+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/extract_table_list.py took 0.119 seconds
+[2026-10-28T02:50:18.803+0000] {processor.py:186} INFO - Started process (PID=230) to work on /opt/airflow/dags/extract_table_list.py
+[2026-10-28T02:50:18.804+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/extract_table_list.py for tasks to queue
+[2026-10-28T02:50:18.805+0000] {logging_mixin.py:190} INFO - [2026-10-28T02:50:18.805+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/extract_table_list.py
+[2026-10-28T02:50:18.814+0000] {processor.py:925} INFO - DAG(s) 'extract_dwh_table_list' retrieved from /opt/airflow/dags/extract_table_list.py
+[2026-10-28T02:50:18.836+0000] {logging_mixin.py:190} INFO - [2026-10-28T02:50:18.836+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2026-10-28T02:50:18.862+0000] {logging_mixin.py:190} INFO - [2026-10-28T02:50:18.861+0000] {dag.py:4180} INFO - Setting next_dagrun for extract_dwh_table_list to 2026-10-28 02:45:00+00:00, run_after=2026-10-28 03:00:00+00:00
+[2026-10-28T02:50:18.887+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/extract_table_list.py took 0.090 seconds
+[2026-10-28T02:50:49.024+0000] {processor.py:186} INFO - Started process (PID=232) to work on /opt/airflow/dags/extract_table_list.py
+[2026-10-28T02:50:49.025+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/extract_table_list.py for tasks to queue
+[2026-10-28T02:50:49.027+0000] {logging_mixin.py:190} INFO - [2026-10-28T02:50:49.027+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/extract_table_list.py
+[2026-10-28T02:50:49.037+0000] {processor.py:925} INFO - DAG(s) 'extract_dwh_table_list' retrieved from /opt/airflow/dags/extract_table_list.py
+[2026-10-28T02:50:49.068+0000] {logging_mixin.py:190} INFO - [2026-10-28T02:50:49.067+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2026-10-28T02:50:49.106+0000] {logging_mixin.py:190} INFO - [2026-10-28T02:50:49.106+0000] {dag.py:4180} INFO - Setting next_dagrun for extract_dwh_table_list to 2026-10-28 02:45:00+00:00, run_after=2026-10-28 03:00:00+00:00
+[2026-10-28T02:50:49.124+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/extract_table_list.py took 0.104 seconds
+[2026-10-28T02:51:19.325+0000] {processor.py:186} INFO - Started process (PID=234) to work on /opt/airflow/dags/extract_table_list.py
+[2026-10-28T02:51:19.326+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/extract_table_list.py for tasks to queue
+[2026-10-28T02:51:19.328+0000] {logging_mixin.py:190} INFO - [2026-10-28T02:51:19.328+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/extract_table_list.py
+[2026-10-28T02:51:19.338+0000] {processor.py:925} INFO - DAG(s) 'extract_dwh_table_list' retrieved from /opt/airflow/dags/extract_table_list.py
+[2026-10-28T02:51:19.359+0000] {logging_mixin.py:190} INFO - [2026-10-28T02:51:19.359+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2026-10-28T02:51:19.378+0000] {logging_mixin.py:190} INFO - [2026-10-28T02:51:19.378+0000] {dag.py:4180} INFO - Setting next_dagrun for extract_dwh_table_list to 2026-10-28 02:45:00+00:00, run_after=2026-10-28 03:00:00+00:00
+[2026-10-28T02:51:19.396+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/extract_table_list.py took 0.075 seconds
+[2026-10-28T02:51:49.525+0000] {processor.py:186} INFO - Started process (PID=236) to work on /opt/airflow/dags/extract_table_list.py
+[2026-10-28T02:51:49.526+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/extract_table_list.py for tasks to queue
+[2026-10-28T02:51:49.528+0000] {logging_mixin.py:190} INFO - [2026-10-28T02:51:49.528+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/extract_table_list.py
+[2026-10-28T02:51:49.538+0000] {processor.py:925} INFO - DAG(s) 'extract_dwh_table_list' retrieved from /opt/airflow/dags/extract_table_list.py
+[2026-10-28T02:51:49.560+0000] {logging_mixin.py:190} INFO - [2026-10-28T02:51:49.559+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2026-10-28T02:51:49.580+0000] {logging_mixin.py:190} INFO - [2026-10-28T02:51:49.580+0000] {dag.py:4180} INFO - Setting next_dagrun for extract_dwh_table_list to 2026-10-28 02:45:00+00:00, run_after=2026-10-28 03:00:00+00:00
+[2026-10-28T02:51:49.604+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/extract_table_list.py took 0.084 seconds
+[2026-10-28T02:52:19.733+0000] {processor.py:186} INFO - Started process (PID=238) to work on /opt/airflow/dags/extract_table_list.py
+[2026-10-28T02:52:19.734+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/extract_table_list.py for tasks to queue
+[2026-10-28T02:52:19.737+0000] {logging_mixin.py:190} INFO - [2026-10-28T02:52:19.736+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/extract_table_list.py
+[2026-10-28T02:52:19.747+0000] {processor.py:925} INFO - DAG(s) 'extract_dwh_table_list' retrieved from /opt/airflow/dags/extract_table_list.py
+[2026-10-28T02:52:19.770+0000] {logging_mixin.py:190} INFO - [2026-10-28T02:52:19.770+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2026-10-28T02:52:19.790+0000] {logging_mixin.py:190} INFO - [2026-10-28T02:52:19.789+0000] {dag.py:4180} INFO - Setting next_dagrun for extract_dwh_table_list to 2026-10-28 02:45:00+00:00, run_after=2026-10-28 03:00:00+00:00
+[2026-10-28T02:52:19.816+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/extract_table_list.py took 0.089 seconds

@@ -1,0 +1,172 @@
+[2026-11-10T18:19:27.646+0000] {processor.py:186} INFO - Started process (PID=102) to work on /opt/airflow/dags/star_schema_dag.py
+[2026-11-10T18:19:27.647+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/star_schema_dag.py for tasks to queue
+[2026-11-10T18:19:27.652+0000] {logging_mixin.py:190} INFO - [2026-11-10T18:19:27.651+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/star_schema_dag.py
+[2026-11-10T18:19:27.667+0000] {logging_mixin.py:190} INFO - [2026-11-10T18:19:27.664+0000] {templater.py:94} ERROR - Failed to resolve template field 'sql'
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.12/site-packages/airflow/template/templater.py", line 92, in resolve_template_files
+    setattr(self, field, env.loader.get_source(env, content)[0])  # type: ignore
+                         ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/airflow/.local/lib/python3.12/site-packages/jinja2/loaders.py", line 209, in get_source
+    raise TemplateNotFound(
+jinja2.exceptions.TemplateNotFound: 'star_schema.sql' not found in search paths: '/opt/airflow/dags', '/opt/airflow/dags/sql'
+[2026-11-10T18:19:27.671+0000] {processor.py:925} INFO - DAG(s) 'star_schema_dag' retrieved from /opt/airflow/dags/star_schema_dag.py
+[2026-11-10T18:19:27.944+0000] {logging_mixin.py:190} INFO - [2026-11-10T18:19:27.943+0000] {override.py:1912} INFO - Created Permission View: can delete on DAG:star_schema_dag
+[2026-11-10T18:19:27.960+0000] {logging_mixin.py:190} INFO - [2026-11-10T18:19:27.960+0000] {override.py:1912} INFO - Created Permission View: can read on DAG:star_schema_dag
+[2026-11-10T18:19:27.972+0000] {logging_mixin.py:190} INFO - [2026-11-10T18:19:27.972+0000] {override.py:1912} INFO - Created Permission View: can edit on DAG:star_schema_dag
+[2026-11-10T18:19:27.990+0000] {logging_mixin.py:190} INFO - [2026-11-10T18:19:27.989+0000] {override.py:1912} INFO - Created Permission View: can create on DAG Run:star_schema_dag
+[2026-11-10T18:19:28.001+0000] {logging_mixin.py:190} INFO - [2026-11-10T18:19:28.000+0000] {override.py:1912} INFO - Created Permission View: can delete on DAG Run:star_schema_dag
+[2026-11-10T18:19:28.010+0000] {logging_mixin.py:190} INFO - [2026-11-10T18:19:28.010+0000] {override.py:1912} INFO - Created Permission View: can read on DAG Run:star_schema_dag
+[2026-11-10T18:19:28.020+0000] {logging_mixin.py:190} INFO - [2026-11-10T18:19:28.020+0000] {override.py:1912} INFO - Created Permission View: menu access on DAG Run:star_schema_dag
+[2026-11-10T18:19:28.021+0000] {logging_mixin.py:190} INFO - [2026-11-10T18:19:28.021+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2026-11-10T18:19:28.037+0000] {logging_mixin.py:190} INFO - [2026-11-10T18:19:28.036+0000] {dag.py:3262} INFO - Creating ORM DAG for star_schema_dag
+[2026-11-10T18:19:28.038+0000] {logging_mixin.py:190} INFO - [2026-11-10T18:19:28.038+0000] {dag.py:4180} INFO - Setting next_dagrun for star_schema_dag to None, run_after=None
+[2026-11-10T18:19:28.064+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/star_schema_dag.py took 0.424 seconds
+[2026-11-10T18:19:58.155+0000] {processor.py:186} INFO - Started process (PID=105) to work on /opt/airflow/dags/star_schema_dag.py
+[2026-11-10T18:19:58.156+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/star_schema_dag.py for tasks to queue
+[2026-11-10T18:19:58.158+0000] {logging_mixin.py:190} INFO - [2026-11-10T18:19:58.157+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/star_schema_dag.py
+[2026-11-10T18:19:58.166+0000] {logging_mixin.py:190} INFO - [2026-11-10T18:19:58.165+0000] {templater.py:94} ERROR - Failed to resolve template field 'sql'
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.12/site-packages/airflow/template/templater.py", line 92, in resolve_template_files
+    setattr(self, field, env.loader.get_source(env, content)[0])  # type: ignore
+                         ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/airflow/.local/lib/python3.12/site-packages/jinja2/loaders.py", line 209, in get_source
+    raise TemplateNotFound(
+jinja2.exceptions.TemplateNotFound: 'star_schema.sql' not found in search paths: '/opt/airflow/dags', '/opt/airflow/dags/sql'
+[2026-11-10T18:19:58.169+0000] {processor.py:925} INFO - DAG(s) 'star_schema_dag' retrieved from /opt/airflow/dags/star_schema_dag.py
+[2026-11-10T18:19:58.188+0000] {logging_mixin.py:190} INFO - [2026-11-10T18:19:58.187+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2026-11-10T18:19:58.200+0000] {logging_mixin.py:190} INFO - [2026-11-10T18:19:58.200+0000] {dag.py:4180} INFO - Setting next_dagrun for star_schema_dag to None, run_after=None
+[2026-11-10T18:19:58.219+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/star_schema_dag.py took 0.069 seconds
+[2026-11-10T18:20:28.671+0000] {processor.py:186} INFO - Started process (PID=108) to work on /opt/airflow/dags/star_schema_dag.py
+[2026-11-10T18:20:28.672+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/star_schema_dag.py for tasks to queue
+[2026-11-10T18:20:28.674+0000] {logging_mixin.py:190} INFO - [2026-11-10T18:20:28.674+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/star_schema_dag.py
+[2026-11-10T18:20:28.682+0000] {logging_mixin.py:190} INFO - [2026-11-10T18:20:28.681+0000] {templater.py:94} ERROR - Failed to resolve template field 'sql'
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.12/site-packages/airflow/template/templater.py", line 92, in resolve_template_files
+    setattr(self, field, env.loader.get_source(env, content)[0])  # type: ignore
+                         ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/airflow/.local/lib/python3.12/site-packages/jinja2/loaders.py", line 209, in get_source
+    raise TemplateNotFound(
+jinja2.exceptions.TemplateNotFound: 'star_schema.sql' not found in search paths: '/opt/airflow/dags', '/opt/airflow/dags/sql'
+[2026-11-10T18:20:28.685+0000] {processor.py:925} INFO - DAG(s) 'star_schema_dag' retrieved from /opt/airflow/dags/star_schema_dag.py
+[2026-11-10T18:20:28.704+0000] {logging_mixin.py:190} INFO - [2026-11-10T18:20:28.704+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2026-11-10T18:20:28.716+0000] {logging_mixin.py:190} INFO - [2026-11-10T18:20:28.716+0000] {dag.py:4180} INFO - Setting next_dagrun for star_schema_dag to None, run_after=None
+[2026-11-10T18:20:28.733+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/star_schema_dag.py took 0.068 seconds
+[2026-11-10T18:20:59.002+0000] {processor.py:186} INFO - Started process (PID=111) to work on /opt/airflow/dags/star_schema_dag.py
+[2026-11-10T18:20:59.002+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/star_schema_dag.py for tasks to queue
+[2026-11-10T18:20:59.005+0000] {logging_mixin.py:190} INFO - [2026-11-10T18:20:59.005+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/star_schema_dag.py
+[2026-11-10T18:20:59.014+0000] {logging_mixin.py:190} INFO - [2026-11-10T18:20:59.013+0000] {templater.py:94} ERROR - Failed to resolve template field 'sql'
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.12/site-packages/airflow/template/templater.py", line 92, in resolve_template_files
+    setattr(self, field, env.loader.get_source(env, content)[0])  # type: ignore
+                         ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/airflow/.local/lib/python3.12/site-packages/jinja2/loaders.py", line 209, in get_source
+    raise TemplateNotFound(
+jinja2.exceptions.TemplateNotFound: 'star_schema.sql' not found in search paths: '/opt/airflow/dags', '/opt/airflow/dags/sql'
+[2026-11-10T18:20:59.017+0000] {processor.py:925} INFO - DAG(s) 'star_schema_dag' retrieved from /opt/airflow/dags/star_schema_dag.py
+[2026-11-10T18:20:59.036+0000] {logging_mixin.py:190} INFO - [2026-11-10T18:20:59.036+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2026-11-10T18:20:59.048+0000] {logging_mixin.py:190} INFO - [2026-11-10T18:20:59.048+0000] {dag.py:4180} INFO - Setting next_dagrun for star_schema_dag to None, run_after=None
+[2026-11-10T18:20:59.066+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/star_schema_dag.py took 0.071 seconds
+[2026-11-10T18:21:29.271+0000] {processor.py:186} INFO - Started process (PID=114) to work on /opt/airflow/dags/star_schema_dag.py
+[2026-11-10T18:21:29.272+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/star_schema_dag.py for tasks to queue
+[2026-11-10T18:21:29.274+0000] {logging_mixin.py:190} INFO - [2026-11-10T18:21:29.274+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/star_schema_dag.py
+[2026-11-10T18:21:29.283+0000] {logging_mixin.py:190} INFO - [2026-11-10T18:21:29.282+0000] {templater.py:94} ERROR - Failed to resolve template field 'sql'
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.12/site-packages/airflow/template/templater.py", line 92, in resolve_template_files
+    setattr(self, field, env.loader.get_source(env, content)[0])  # type: ignore
+                         ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/airflow/.local/lib/python3.12/site-packages/jinja2/loaders.py", line 209, in get_source
+    raise TemplateNotFound(
+jinja2.exceptions.TemplateNotFound: 'star_schema.sql' not found in search paths: '/opt/airflow/dags', '/opt/airflow/dags/sql'
+[2026-11-10T18:21:29.285+0000] {processor.py:925} INFO - DAG(s) 'star_schema_dag' retrieved from /opt/airflow/dags/star_schema_dag.py
+[2026-11-10T18:21:29.304+0000] {logging_mixin.py:190} INFO - [2026-11-10T18:21:29.304+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2026-11-10T18:21:29.316+0000] {logging_mixin.py:190} INFO - [2026-11-10T18:21:29.316+0000] {dag.py:4180} INFO - Setting next_dagrun for star_schema_dag to None, run_after=None
+[2026-11-10T18:21:29.333+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/star_schema_dag.py took 0.068 seconds
+[2026-11-10T18:21:59.613+0000] {processor.py:186} INFO - Started process (PID=117) to work on /opt/airflow/dags/star_schema_dag.py
+[2026-11-10T18:21:59.614+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/star_schema_dag.py for tasks to queue
+[2026-11-10T18:21:59.617+0000] {logging_mixin.py:190} INFO - [2026-11-10T18:21:59.616+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/star_schema_dag.py
+[2026-11-10T18:21:59.626+0000] {logging_mixin.py:190} INFO - [2026-11-10T18:21:59.625+0000] {templater.py:94} ERROR - Failed to resolve template field 'sql'
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.12/site-packages/airflow/template/templater.py", line 92, in resolve_template_files
+    setattr(self, field, env.loader.get_source(env, content)[0])  # type: ignore
+                         ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/airflow/.local/lib/python3.12/site-packages/jinja2/loaders.py", line 209, in get_source
+    raise TemplateNotFound(
+jinja2.exceptions.TemplateNotFound: 'star_schema.sql' not found in search paths: '/opt/airflow/dags', '/opt/airflow/dags/sql'
+[2026-11-10T18:21:59.629+0000] {processor.py:925} INFO - DAG(s) 'star_schema_dag' retrieved from /opt/airflow/dags/star_schema_dag.py
+[2026-11-10T18:21:59.648+0000] {logging_mixin.py:190} INFO - [2026-11-10T18:21:59.647+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2026-11-10T18:21:59.659+0000] {logging_mixin.py:190} INFO - [2026-11-10T18:21:59.659+0000] {dag.py:4180} INFO - Setting next_dagrun for star_schema_dag to None, run_after=None
+[2026-11-10T18:21:59.677+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/star_schema_dag.py took 0.069 seconds
+[2026-11-10T18:22:29.936+0000] {processor.py:186} INFO - Started process (PID=120) to work on /opt/airflow/dags/star_schema_dag.py
+[2026-11-10T18:22:29.937+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/star_schema_dag.py for tasks to queue
+[2026-11-10T18:22:29.939+0000] {logging_mixin.py:190} INFO - [2026-11-10T18:22:29.939+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/star_schema_dag.py
+[2026-11-10T18:22:29.952+0000] {logging_mixin.py:190} INFO - [2026-11-10T18:22:29.950+0000] {templater.py:94} ERROR - Failed to resolve template field 'sql'
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.12/site-packages/airflow/template/templater.py", line 92, in resolve_template_files
+    setattr(self, field, env.loader.get_source(env, content)[0])  # type: ignore
+                         ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/airflow/.local/lib/python3.12/site-packages/jinja2/loaders.py", line 209, in get_source
+    raise TemplateNotFound(
+jinja2.exceptions.TemplateNotFound: 'star_schema.sql' not found in search paths: '/opt/airflow/dags', '/opt/airflow/dags/sql'
+[2026-11-10T18:22:29.954+0000] {processor.py:925} INFO - DAG(s) 'star_schema_dag' retrieved from /opt/airflow/dags/star_schema_dag.py
+[2026-11-10T18:22:29.973+0000] {logging_mixin.py:190} INFO - [2026-11-10T18:22:29.973+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2026-11-10T18:22:29.985+0000] {logging_mixin.py:190} INFO - [2026-11-10T18:22:29.985+0000] {dag.py:4180} INFO - Setting next_dagrun for star_schema_dag to None, run_after=None
+[2026-11-10T18:22:30.003+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/star_schema_dag.py took 0.072 seconds
+[2026-11-10T18:23:00.181+0000] {processor.py:186} INFO - Started process (PID=123) to work on /opt/airflow/dags/star_schema_dag.py
+[2026-11-10T18:23:00.182+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/star_schema_dag.py for tasks to queue
+[2026-11-10T18:23:00.184+0000] {logging_mixin.py:190} INFO - [2026-11-10T18:23:00.184+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/star_schema_dag.py
+[2026-11-10T18:23:00.193+0000] {logging_mixin.py:190} INFO - [2026-11-10T18:23:00.192+0000] {templater.py:94} ERROR - Failed to resolve template field 'sql'
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.12/site-packages/airflow/template/templater.py", line 92, in resolve_template_files
+    setattr(self, field, env.loader.get_source(env, content)[0])  # type: ignore
+                         ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/airflow/.local/lib/python3.12/site-packages/jinja2/loaders.py", line 209, in get_source
+    raise TemplateNotFound(
+jinja2.exceptions.TemplateNotFound: 'star_schema.sql' not found in search paths: '/opt/airflow/dags', '/opt/airflow/dags/sql'
+[2026-11-10T18:23:00.196+0000] {processor.py:925} INFO - DAG(s) 'star_schema_dag' retrieved from /opt/airflow/dags/star_schema_dag.py
+[2026-11-10T18:23:00.215+0000] {logging_mixin.py:190} INFO - [2026-11-10T18:23:00.215+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2026-11-10T18:23:00.227+0000] {logging_mixin.py:190} INFO - [2026-11-10T18:23:00.227+0000] {dag.py:4180} INFO - Setting next_dagrun for star_schema_dag to None, run_after=None
+[2026-11-10T18:23:00.245+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/star_schema_dag.py took 0.070 seconds
+[2026-11-10T18:23:30.386+0000] {processor.py:186} INFO - Started process (PID=126) to work on /opt/airflow/dags/star_schema_dag.py
+[2026-11-10T18:23:30.386+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/star_schema_dag.py for tasks to queue
+[2026-11-10T18:23:30.388+0000] {logging_mixin.py:190} INFO - [2026-11-10T18:23:30.388+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/star_schema_dag.py
+[2026-11-10T18:23:30.397+0000] {logging_mixin.py:190} INFO - [2026-11-10T18:23:30.396+0000] {templater.py:94} ERROR - Failed to resolve template field 'sql'
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.12/site-packages/airflow/template/templater.py", line 92, in resolve_template_files
+    setattr(self, field, env.loader.get_source(env, content)[0])  # type: ignore
+                         ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/airflow/.local/lib/python3.12/site-packages/jinja2/loaders.py", line 209, in get_source
+    raise TemplateNotFound(
+jinja2.exceptions.TemplateNotFound: 'star_schema.sql' not found in search paths: '/opt/airflow/dags', '/opt/airflow/dags/sql'
+[2026-11-10T18:23:30.399+0000] {processor.py:925} INFO - DAG(s) 'star_schema_dag' retrieved from /opt/airflow/dags/star_schema_dag.py
+[2026-11-10T18:23:30.419+0000] {logging_mixin.py:190} INFO - [2026-11-10T18:23:30.419+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2026-11-10T18:23:30.431+0000] {logging_mixin.py:190} INFO - [2026-11-10T18:23:30.431+0000] {dag.py:4180} INFO - Setting next_dagrun for star_schema_dag to None, run_after=None
+[2026-11-10T18:23:30.451+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/star_schema_dag.py took 0.070 seconds
+[2026-11-10T18:24:00.534+0000] {processor.py:186} INFO - Started process (PID=129) to work on /opt/airflow/dags/star_schema_dag.py
+[2026-11-10T18:24:00.535+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/star_schema_dag.py for tasks to queue
+[2026-11-10T18:24:00.537+0000] {logging_mixin.py:190} INFO - [2026-11-10T18:24:00.537+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/star_schema_dag.py
+[2026-11-10T18:24:00.546+0000] {logging_mixin.py:190} INFO - [2026-11-10T18:24:00.545+0000] {templater.py:94} ERROR - Failed to resolve template field 'sql'
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.12/site-packages/airflow/template/templater.py", line 92, in resolve_template_files
+    setattr(self, field, env.loader.get_source(env, content)[0])  # type: ignore
+                         ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/airflow/.local/lib/python3.12/site-packages/jinja2/loaders.py", line 209, in get_source
+    raise TemplateNotFound(
+jinja2.exceptions.TemplateNotFound: 'star_schema.sql' not found in search paths: '/opt/airflow/dags', '/opt/airflow/dags/sql'
+[2026-11-10T18:24:00.548+0000] {processor.py:925} INFO - DAG(s) 'star_schema_dag' retrieved from /opt/airflow/dags/star_schema_dag.py
+[2026-11-10T18:24:00.569+0000] {logging_mixin.py:190} INFO - [2026-11-10T18:24:00.569+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2026-11-10T18:24:00.582+0000] {logging_mixin.py:190} INFO - [2026-11-10T18:24:00.581+0000] {dag.py:4180} INFO - Setting next_dagrun for star_schema_dag to None, run_after=None
+[2026-11-10T18:24:00.603+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/star_schema_dag.py took 0.075 seconds
+[2026-11-10T18:24:30.731+0000] {processor.py:186} INFO - Started process (PID=132) to work on /opt/airflow/dags/star_schema_dag.py
+[2026-11-10T18:24:30.732+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/star_schema_dag.py for tasks to queue
+[2026-11-10T18:24:30.734+0000] {logging_mixin.py:190} INFO - [2026-11-10T18:24:30.734+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/star_schema_dag.py
+[2026-11-10T18:24:30.745+0000] {processor.py:925} INFO - DAG(s) 'star_schema_dag' retrieved from /opt/airflow/dags/star_schema_dag.py
+[2026-11-10T18:24:30.852+0000] {logging_mixin.py:190} INFO - [2026-11-10T18:24:30.852+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2026-11-10T18:24:30.862+0000] {logging_mixin.py:190} INFO - [2026-11-10T18:24:30.862+0000] {dag.py:4180} INFO - Setting next_dagrun for star_schema_dag to None, run_after=None
+[2026-11-10T18:24:30.882+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/star_schema_dag.py took 0.156 seconds
+[2026-11-10T18:25:01.270+0000] {processor.py:186} INFO - Started process (PID=135) to work on /opt/airflow/dags/star_schema_dag.py
+[2026-11-10T18:25:01.272+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/star_schema_dag.py for tasks to queue
+[2026-11-10T18:25:01.275+0000] {logging_mixin.py:190} INFO - [2026-11-10T18:25:01.274+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/star_schema_dag.py
+[2026-11-10T18:25:01.286+0000] {processor.py:925} INFO - DAG(s) 'star_schema_dag' retrieved from /opt/airflow/dags/star_schema_dag.py
+[2026-11-10T18:25:01.305+0000] {logging_mixin.py:190} INFO - [2026-11-10T18:25:01.305+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2026-11-10T18:25:01.317+0000] {logging_mixin.py:190} INFO - [2026-11-10T18:25:01.317+0000] {dag.py:4180} INFO - Setting next_dagrun for star_schema_dag to None, run_after=None
+[2026-11-10T18:25:01.335+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/star_schema_dag.py took 0.070 seconds

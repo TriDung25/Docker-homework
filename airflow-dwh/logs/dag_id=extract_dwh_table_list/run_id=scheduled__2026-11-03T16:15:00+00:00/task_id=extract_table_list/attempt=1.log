@@ -1,0 +1,91 @@
+[2026-11-03T16:30:07.146+0000] {local_task_job_runner.py:123} INFO - ::group::Pre task execution logs
+[2026-11-03T16:30:07.155+0000] {taskinstance.py:2614} INFO - Dependencies all met for dep_context=non-requeueable deps ti=<TaskInstance: extract_dwh_table_list.extract_table_list scheduled__2026-11-03T16:15:00+00:00 [queued]>
+[2026-11-03T16:30:07.161+0000] {taskinstance.py:2614} INFO - Dependencies all met for dep_context=requeueable deps ti=<TaskInstance: extract_dwh_table_list.extract_table_list scheduled__2026-11-03T16:15:00+00:00 [queued]>
+[2026-11-03T16:30:07.162+0000] {taskinstance.py:2867} INFO - Starting attempt 1 of 1
+[2026-11-03T16:30:07.177+0000] {taskinstance.py:2890} INFO - Executing <Task(PythonOperator): extract_table_list> on 2026-11-03 16:15:00+00:00
+[2026-11-03T16:30:07.184+0000] {standard_task_runner.py:72} INFO - Started process 371 to run task
+[2026-11-03T16:30:07.190+0000] {standard_task_runner.py:104} INFO - Running: ['airflow', 'tasks', 'run', 'extract_dwh_table_list', 'extract_table_list', 'scheduled__2026-11-03T16:15:00+00:00', '--job-id', '15', '--raw', '--subdir', 'DAGS_FOLDER/extract_table_list.py', '--cfg-path', '/tmp/tmprpbf6p3s']
+[2026-11-03T16:30:07.193+0000] {standard_task_runner.py:105} INFO - Job 15: Subtask extract_table_list
+[2026-11-03T16:30:07.224+0000] {task_command.py:467} INFO - Running <TaskInstance: extract_dwh_table_list.extract_table_list scheduled__2026-11-03T16:15:00+00:00 [running]> on host 14bbe094d5c5
+[2026-11-03T16:30:07.308+0000] {taskinstance.py:3134} INFO - Exporting env vars: AIRFLOW_CTX_DAG_OWNER='airflow' AIRFLOW_CTX_DAG_ID='extract_dwh_table_list' AIRFLOW_CTX_TASK_ID='extract_table_list' AIRFLOW_CTX_EXECUTION_DATE='2026-11-03T16:15:00+00:00' AIRFLOW_CTX_TRY_NUMBER='1' AIRFLOW_CTX_DAG_RUN_ID='scheduled__2026-11-03T16:15:00+00:00'
+[2026-11-03T16:30:07.308+0000] {taskinstance.py:732} INFO - ::endgroup::
+[2026-11-03T16:30:07.337+0000] {logging_mixin.py:190} INFO -  table_schema | table_name
+--------------+-----------------
+ public       | actor
+ public       | address
+ public       | category
+ public       | city
+ public       | country
+ public       | customer
+ public       | film
+ public       | film_actor
+ public       | film_category
+ public       | film_embedding
+ public       | inventory
+ public       | language
+ public       | payment
+ public       | payment_p2022_01
+ public       | payment_p2022_02
+ public       | payment_p2022_03
+ public       | payment_p2022_04
+ public       | payment_p2022_05
+ public       | payment_p2022_06
+ public       | payment_p2022_07
+ public       | payment_p2022_08
+ public       | payment_p2022_09
+ public       | payment_p2022_10
+ public       | payment_p2022_11
+ public       | payment_p2022_12
+ public       | payment_p2023_01
+ public       | payment_p2023_02
+ public       | payment_p2023_03
+ public       | payment_p2023_04
+ public       | payment_p2023_05
+ public       | payment_p2023_06
+ public       | payment_p2023_07
+ public       | payment_p2023_08
+ public       | payment_p2023_09
+ public       | payment_p2023_10
+ public       | payment_p2023_11
+ public       | payment_p2023_12
+ public       | payment_p2024_01
+ public       | payment_p2024_02
+ public       | payment_p2024_03
+ public       | payment_p2024_04
+ public       | payment_p2024_05
+ public       | payment_p2024_06
+ public       | payment_p2024_07
+ public       | payment_p2024_08
+ public       | payment_p2024_09
+ public       | payment_p2024_10
+ public       | payment_p2024_11
+ public       | payment_p2024_12
+ public       | payment_p2025_01
+ public       | payment_p2025_02
+ public       | payment_p2025_03
+ public       | payment_p2025_04
+ public       | payment_p2025_05
+ public       | payment_p2025_06
+ public       | payment_p2025_07
+ public       | payment_p2025_08
+ public       | payment_p2025_09
+ public       | payment_p2025_10
+ public       | payment_p2025_11
+ public       | payment_p2025_12
+ public       | payment_p2026_01
+ public       | payment_p2026_02
+ public       | payment_p2026_03
+ public       | payment_p2026_04
+ public       | payment_p2026_05
+ public       | payment_p2026_06
+ public       | payment_p2026_07
+ public       | rental
+ public       | staff
+ public       | store
+(71 rows)
+[2026-11-03T16:30:07.338+0000] {python.py:240} INFO - Done. Returned value was: None
+[2026-11-03T16:30:07.343+0000] {taskinstance.py:341} INFO - ::group::Post task execution logs
+[2026-11-03T16:30:07.343+0000] {taskinstance.py:353} INFO - Marking task as SUCCESS. dag_id=extract_dwh_table_list, task_id=extract_table_list, run_id=scheduled__2026-11-03T16:15:00+00:00, execution_date=20261103T161500, start_date=20261103T163007, end_date=20261103T163007
+[2026-11-03T16:30:07.405+0000] {local_task_job_runner.py:266} INFO - Task exited with return code 0
+[2026-11-03T16:30:07.421+0000] {taskinstance.py:3901} INFO - 0 downstream tasks scheduled from follow-on schedule check
+[2026-11-03T16:30:07.422+0000] {local_task_job_runner.py:245} INFO - ::endgroup::
